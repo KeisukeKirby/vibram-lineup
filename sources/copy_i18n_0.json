@@ -1,0 +1,657 @@
+{
+ "V-Run": {
+  "ja": {
+   "tagline": "ミニマルランニングへの入り口となる軽量モデル",
+   "intro": "従来のシューズから、より自然な走りへ移行する人のための軽量で通気性に優れたミニマルランニングシューズ。薄いソールが地面の感覚を伝え、バランスやランニングフォームの向上を助けます。ウォーキングやジムでも使えます。",
+   "feats": [
+    {
+     "t": "ミニマルへの移行に最適",
+     "d": "従来のシューズからミニマルランニングへ段階的に移行したい人向けに設計されています。"
+    },
+    {
+     "t": "薄いソールで地面を感じる",
+     "d": "薄いソール構造が地面からのフィードバックを高め、固有受容感覚やバランスを助けます。"
+    },
+    {
+     "t": "通気性の高いアッパー",
+     "d": "柔らかい穴あきアッパーが空気の流れを最大化し、一日中快適です。"
+    },
+    {
+     "t": "ミディアムな接地感",
+     "d": "柔軟性と反応性、必要最低限の保護のバランスがとれています。"
+    },
+    {
+     "t": "走る以外にも対応",
+     "d": "ウォーキングやジムトレーニング、ふだんの運動にも使えます。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Lightweight, breathable minimalist running shoe for a natural stride",
+   "intro": "A lightweight, breathable minimalist running shoe for runners moving from traditional footwear to a more natural running experience. The thin sole enhances ground feedback, helping proprioception, balance and running technique, while the soft, perforated upper maximizes airflow.",
+   "feats": [
+    {
+     "t": "Easy minimalist transition",
+     "d": "Designed to support a gradual shift from traditional shoes to minimalist running."
+    },
+    {
+     "t": "Thin sole, real ground feel",
+     "d": "The thin sole construction enhances ground feedback to help balance and technique."
+    },
+    {
+     "t": "Breathable perforated upper",
+     "d": "The soft, perforated upper maximizes airflow for all-day comfort."
+    },
+    {
+     "t": "Medium ground feel",
+     "d": "Balances flexibility, responsiveness and essential protection."
+    },
+    {
+     "t": "Beyond running",
+     "d": "Suits walking, gym training and general fitness focused on natural movement."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้าวิ่งมินิมอลน้ำหนักเบา ระบายอากาศดี เพื่อก้าวเดินแบบธรรมชาติ",
+   "intro": "รองเท้าวิ่งมินิมอลน้ำหนักเบาและระบายอากาศได้ดี เหมาะสำหรับผู้ที่ต้องการเปลี่ยนจากรองเท้าแบบดั้งเดิมสู่การวิ่งที่เป็นธรรมชาติมากขึ้น พื้นรองเท้าบางช่วยให้รับรู้พื้นได้ชัดเจน ช่วยเรื่องการทรงตัวและท่าวิ่ง ส่วนอัปเปอร์นุ่มแบบเจาะรูช่วยให้อากาศถ่ายเทได้ดี",
+   "feats": [
+    {
+     "t": "ปรับสู่มินิมอลได้ง่าย",
+     "d": "ออกแบบมาเพื่อให้ค่อยๆ เปลี่ยนจากรองเท้าแบบเดิมสู่การวิ่งแบบมินิมอล"
+    },
+    {
+     "t": "พื้นบาง สัมผัสพื้นชัด",
+     "d": "โครงสร้างพื้นบางช่วยให้รับรู้พื้นได้ดีขึ้น ช่วยเรื่องการทรงตัวและเทคนิคการวิ่ง"
+    },
+    {
+     "t": "อัปเปอร์เจาะรู ระบายอากาศดี",
+     "d": "อัปเปอร์นุ่มแบบเจาะรูให้อากาศถ่ายเทสูงสุด สวมสบายได้ทั้งวัน"
+    },
+    {
+     "t": "สัมผัสพื้นระดับกลาง",
+     "d": "สมดุลระหว่างความยืดหยุ่น การตอบสนอง และการปกป้องที่จำเป็น"
+    },
+    {
+     "t": "ใช้ได้มากกว่าการวิ่ง",
+     "d": "เหมาะกับการเดิน ออกกำลังกายในยิม และการเคลื่อนไหวแบบธรรมชาติทั่วไป"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 136g",
+    "en": "Men's EU43: 136 g",
+    "th": "ผู้ชาย EU43: 136 กรัม"
+   },
+   "sole": {
+    "ja": "最大厚8.5mm(インソール2mm EVA+ミッドソール4mm EVA+ラバー2.5mm)",
+    "en": "Max 8.5 mm: 2 mm EVA insole + 4 mm EVA midsole + 2.5 mm rubber outsole",
+    "th": "หนาสูงสุด 8.5 มม.: พื้นเสริม EVA 2 มม. + มิดโซล EVA 4 มม. + ยางเอาท์โซล 2.5 มม."
+   },
+   "upper": {
+    "ja": "Polyester Lycra ストレッチメッシュ+ポリエステルマイクロファイバー",
+    "en": "Polyester Lycra stretch mesh + polyester microfiber",
+    "th": "Polyester Lycra stretch mesh + polyester microfiber"
+   }
+  }
+ },
+ "V-Train 2.0": {
+  "ja": {
+   "tagline": "屋内外で活躍するオールマイティなスポーツモデル",
+   "intro": "フィットネス、トレーニング、ランニングなど、屋内・屋外を問わず様々な場面で活躍するモデル。ワンタッチストラップとマジックテープで足をしっかりホールドし、ハードなトレーニングや横方向の動きにも対応します。",
+   "feats": [
+    {
+     "t": "ダブルホールド",
+     "d": "ワンタッチストラップとマジックテープの組み合わせで足をしっかり固定します。"
+    },
+    {
+     "t": "横方向の動きに対応",
+     "d": "ハードなトレーニングや横方向の動きにも対応します。"
+    },
+    {
+     "t": "XS TREK ソール",
+     "d": "特殊な模様のXS TREKソールが安定感と優れたグリップ力を発揮します。"
+    },
+    {
+     "t": "跡を残さず室内も快適",
+     "d": "跡を残さない作りのため、室内にも適しています。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "All-round sport model for indoor and outdoor use",
+   "intro": "A versatile sport model for fitness, training and running, indoors or outdoors. A one-touch strap combined with hook-and-loop closure holds the foot firmly, and it handles hard training and lateral movement.",
+   "feats": [
+    {
+     "t": "Double-closure hold",
+     "d": "A one-touch strap plus hook-and-loop closure holds the foot firmly."
+    },
+    {
+     "t": "Ready for lateral moves",
+     "d": "Supports hard training and sideways movement."
+    },
+    {
+     "t": "XS Trek sole",
+     "d": "The specially patterned XS Trek sole offers stability and excellent grip."
+    },
+    {
+     "t": "Non-marking for indoors",
+     "d": "Its construction leaves no marks, so it suits indoor floors."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้าสปอร์ตอเนกประสงค์ ใช้ได้ทั้งในและนอกอาคาร",
+   "intro": "รองเท้าสปอร์ตอเนกประสงค์ ใช้ได้ทั้งฟิตเนส เทรนนิ่ง และการวิ่ง ทั้งในร่มและกลางแจ้ง สายรัดแบบวันทัชและตีนตุ๊กแกช่วยล็อกเท้าให้กระชับ รองรับการเทรนนิ่งหนักและการเคลื่อนไหวด้านข้าง",
+   "feats": [
+    {
+     "t": "ล็อกเท้าสองชั้น",
+     "d": "สายรัดวันทัชร่วมกับตีนตุ๊กแกช่วยยึดเท้าให้กระชับ"
+    },
+    {
+     "t": "รองรับการเคลื่อนไหวด้านข้าง",
+     "d": "รองรับการเทรนนิ่งหนักและการเคลื่อนไหวด้านข้าง"
+    },
+    {
+     "t": "พื้น XS Trek",
+     "d": "ลายพื้น XS Trek เฉพาะตัวให้ความมั่นคงและยึดเกาะได้ดีเยี่ยม"
+    },
+    {
+     "t": "ไม่ทิ้งรอยบนพื้น ใช้ในร่มได้",
+     "d": "โครงสร้างพื้นไม่ทิ้งรอย จึงเหมาะกับการใช้ในอาคาร"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 220g",
+    "en": "Men's EU43: 220 g",
+    "th": "ผู้ชาย EU43: 220 กรัม"
+   },
+   "sole": {
+    "ja": "ラバーアウトソール4mm(XS TREK)",
+    "en": "4 mm rubber outsole (XS Trek compound)",
+    "th": "เอาท์โซลยาง 4 มม. (XS Trek)"
+   },
+   "upper": {
+    "ja": "ポリエステル生地+サイドTPUパネル",
+    "en": "Polyester fabric + lateral TPU panels",
+    "th": "ผ้าโพลีเอสเตอร์ + แผง TPU ด้านข้าง"
+   }
+  }
+ },
+ "V-Soul": {
+  "ja": {
+   "tagline": "屋内トレーニングやマインドボディ向けのミニマルな女性用モデル",
+   "intro": "屋内トレーニング、ファンクショナルフィットネス、ヨガなどのマインドボディ系アクティビティ向けの女性用ミニマルシューズ。エレガントなデザインとFiveFingersならではの裸足感覚を両立しています。",
+   "feats": [
+    {
+     "t": "Max Feel アプローチ",
+     "d": "自然な足の動きを妨げず、地面の感覚とコントロール性を高めます。"
+    },
+    {
+     "t": "通気性の高いオープンアッパー",
+     "d": "一日中履けるオープンで通気性のあるアッパーです。"
+    },
+    {
+     "t": "調整できるマジックテープ",
+     "d": "フック&ループ式で、自分に合うフィット感に調整できます。"
+    },
+    {
+     "t": "XS Trek ソール",
+     "d": "滑らかな屋内の床でも安定したトラクションを発揮するよう設計されています。"
+    },
+    {
+     "t": "スタジオに最適",
+     "d": "ヨガ、ピラティス、プライオメトリクス、バランス系エクササイズに向きます。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Minimalist women's shoe for indoor training and mind body activities",
+   "intro": "A minimalist women's shoe for indoor training, functional fitness and mind body activities, combining an elegant design with the unmistakable FiveFingers barefoot experience. Built on Vibram's Max Feel approach, it is lightweight and highly flexible for natural foot articulation.",
+   "feats": [
+    {
+     "t": "Max Feel approach",
+     "d": "Allows natural foot movement with enhanced ground awareness and control."
+    },
+    {
+     "t": "Open, breathable upper",
+     "d": "Designed for all-day wear."
+    },
+    {
+     "t": "Adjustable closure",
+     "d": "The hook-and-loop closure gives a customizable, secure fit."
+    },
+    {
+     "t": "Vibram XS Trek outsole",
+     "d": "Designed for consistent traction on smooth indoor surfaces."
+    },
+    {
+     "t": "Made for studio workouts",
+     "d": "Suited to yoga, Pilates, plyometric and balance-focused exercises."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้ามินิมอลสำหรับผู้หญิง เหมาะกับเทรนนิ่งในร่มและกิจกรรมแบบ mind body",
+   "intro": "รองเท้ามินิมอลสำหรับผู้หญิง เหมาะกับการเทรนนิ่งในร่ม ฟังก์ชันนัลฟิตเนส และกิจกรรมแบบ mind body ผสานดีไซน์ที่สวยงามเข้ากับความรู้สึกเหมือนเดินเท้าเปล่าแบบ FiveFingers ด้วยแนวคิด Max Feel ของ Vibram น้ำหนักเบาและยืดหยุ่นสูง ช่วยให้เท้าขยับได้เป็นธรรมชาติ",
+   "feats": [
+    {
+     "t": "แนวคิด Max Feel",
+     "d": "เท้าขยับได้เป็นธรรมชาติ พร้อมรับรู้พื้นและควบคุมได้ดีขึ้น"
+    },
+    {
+     "t": "อัปเปอร์โปร่ง ระบายอากาศดี",
+     "d": "ออกแบบมาให้สวมได้สบายทั้งวัน"
+    },
+    {
+     "t": "ปรับความกระชับได้",
+     "d": "แถบตีนตุ๊กแกปรับให้พอดีและกระชับตามต้องการ"
+    },
+    {
+     "t": "พื้น Vibram XS Trek",
+     "d": "ออกแบบให้ยึดเกาะได้สม่ำเสมอบนพื้นผิวเรียบในอาคาร"
+    },
+    {
+     "t": "เหมาะกับการออกกำลังกายในสตูดิโอ",
+     "d": "เหมาะกับโยคะ พิลาทิส พลัยโอเมตริก และการฝึกทรงตัว"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "片足: 91g",
+    "en": "91 g (3.2 oz) per shoe",
+    "th": "ข้างละ 91 กรัม (3.2 ออนซ์)"
+   },
+   "sole": {
+    "ja": "アウトソール3mm Vibram XS Trek+インソール2mm PUフォーム",
+    "en": "3 mm Vibram XS Trek outsole + 2 mm PU foam insole",
+    "th": "เอาท์โซล Vibram XS Trek 3 มม. + พื้นเสริมโฟม PU 2 มม."
+   },
+   "upper": {
+    "ja": "光沢ポリエステル+調整可能なフック&ループ",
+    "en": "Shiny polyester with adjustable hook-and-loop closure",
+    "th": "โพลีเอสเตอร์เงา พร้อมตีนตุ๊กแกปรับได้"
+   }
+  }
+ },
+ "KSO EVO": {
+  "ja": {
+   "tagline": "超裸足感覚で行うトレーニング向けミニマルシューズ",
+   "intro": "自然な動きと地面に近い感覚を重視したミニマルなトレーニングシューズ。軽量で通気性と柔軟性に優れ、足の自然な動きに追従します。調整しやすいアッパーで、ファンクショナルや筋力系のワークアウトに向きます。",
+   "feats": [
+    {
+     "t": "ミディアムな接地感",
+     "d": "地面からのフィードバックと必要な保護のバランスがとれています。"
+    },
+    {
+     "t": "柔軟なアウトソール",
+     "d": "確かなグリップと必要最低限の保護を、幅広いトレーニングで発揮します。"
+    },
+    {
+     "t": "XS TREK ソール",
+     "d": "ジグザグ模様でグリップ力と柔軟性を兼ね備え、跡を残さず屋内にも適しています。"
+    },
+    {
+     "t": "調整しやすいアッパー",
+     "d": "軽くて通気性のあるシンプルなアッパーで、しっかりフィットします。"
+    },
+    {
+     "t": "ウェイトにも対応",
+     "d": "ファンクショナルフィットネス、プライオ、ウェイトやサーキットトレーニングに向きます。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Minimalist training shoe for a close-to-the-ground feel",
+   "intro": "A minimalist training shoe designed to promote natural movement and a close-to-the-ground feel. Lightweight, breathable and highly flexible, it adapts to the natural motion of the foot, and its simple adjustable upper gives a secure, comfortable fit for functional and strength-based workouts.",
+   "feats": [
+    {
+     "t": "Medium Ground Feel",
+     "d": "Balances perceptible ground feedback with essential underfoot protection."
+    },
+    {
+     "t": "Flexible outsole",
+     "d": "Provides reliable grip and essential protection across many training activities."
+    },
+    {
+     "t": "XS Trek sole",
+     "d": "A zigzag pattern combines grip and flexibility, and the sole suits indoor use."
+    },
+    {
+     "t": "Simple adjustable upper",
+     "d": "Light, airy upper for a comfortable and secure fit."
+    },
+    {
+     "t": "Built for strength work",
+     "d": "Ideal for functional fitness, plyometrics, weightlifting and circuit training."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้าเทรนนิ่งมินิมอล ให้ความรู้สึกใกล้พื้นเหมือนเดินเท้าเปล่า",
+   "intro": "รองเท้าเทรนนิ่งมินิมอลที่ออกแบบเพื่อส่งเสริมการเคลื่อนไหวแบบธรรมชาติและความรู้สึกใกล้พื้น น้ำหนักเบา ระบายอากาศดี และยืดหยุ่นสูง ขยับตามการเคลื่อนไหวของเท้าได้อย่างลื่นไหล อัปเปอร์แบบปรับได้ง่ายช่วยให้กระชับสบาย เหมาะกับการออกกำลังกายแบบฟังก์ชันนัลและเสริมสร้างกล้ามเนื้อ",
+   "feats": [
+    {
+     "t": "สัมผัสพื้นระดับกลาง",
+     "d": "สมดุลระหว่างการรับรู้พื้นกับการปกป้องเท้าที่จำเป็น"
+    },
+    {
+     "t": "เอาท์โซลยืดหยุ่น",
+     "d": "ยึดเกาะได้ดีและปกป้องเท้าอย่างเหมาะสมในการเทรนนิ่งหลากหลาย"
+    },
+    {
+     "t": "พื้น XS Trek",
+     "d": "ลายซิกแซกให้ทั้งการยึดเกาะและความยืดหยุ่น เหมาะกับการใช้ในอาคาร"
+    },
+    {
+     "t": "อัปเปอร์เรียบง่าย ปรับได้",
+     "d": "เบา โปร่ง สวมกระชับและสบาย"
+    },
+    {
+     "t": "เหมาะกับเทรนนิ่งสายแข็งแรง",
+     "d": "เหมาะกับฟังก์ชันนัลฟิตเนส พลัยโอเมตริก ยกน้ำหนัก และเซอร์กิตเทรนนิ่ง"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "W37: 106.6g / M43: 147.2g",
+    "en": "Women's EU37: 106.6 g / Men's EU43: 147.2 g",
+    "th": "ผู้หญิง EU37: 106.6 กรัม / ผู้ชาย EU43: 147.2 กรัม"
+   },
+   "sole": {
+    "ja": "XS TREKラバーアウトソール3mm+インソール2mm EVA",
+    "en": "3 mm XS Trek rubber outsole + 2 mm EVA insole",
+    "th": "เอาท์โซลยาง XS Trek 3 มม. + พื้นเสริม EVA 2 มม."
+   },
+   "upper": {
+    "ja": "ポリエステル生地(軽量で通気性のある調整式デザイン)",
+    "en": "Polyester fabric, light and airy adjustable design",
+    "th": "ผ้าโพลีเอสเตอร์ ดีไซน์เบาโปร่งและปรับได้"
+   }
+  }
+ },
+ "KMD EVO": {
+  "ja": {
+   "tagline": "屋内外で使えるファン人気のトレーニングシューズ",
+   "intro": "屋内でも屋外でも使えるトレーニングシューズ。ニットのやわらかいアッパーにクイックレーシング、Ecostep Recycle アウトソールを採用。軽量で柔らかく、フィットネスクラス、ウェイトトレーニング、有酸素運動などジムでの運動に適しています。",
+   "feats": [
+    {
+     "t": "屋内外で使える",
+     "d": "フィットネスクラスやジムでの運動など、屋内外のトレーニングに対応します。"
+    },
+    {
+     "t": "やわらかいニットアッパー",
+     "d": "軽量で柔らかく、クイックレーシングで履きやすい設計です。"
+    },
+    {
+     "t": "EcoStep Recycle アウトソール",
+     "d": "再生素材を使ったラバーで、白い斑点が出ますが汚れや不良ではありません。"
+    },
+    {
+     "t": "6mm EVAミッドソール",
+     "d": "適度なクッション性を備えた構造です。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Fan-favorite indoor and outdoor training shoe",
+   "intro": "A versatile indoor and outdoor training shoe with a soft knitted upper, a quick-lacing system and a Vibram EcoStep Recycle outsole. Lightweight, soft and comfortable, it performs well in fitness classes, weight lifting, cardio and other gym exercises.",
+   "feats": [
+    {
+     "t": "Indoor and outdoor use",
+     "d": "Suits traditional training activities both indoors and outside."
+    },
+    {
+     "t": "Soft knitted upper",
+     "d": "Lightweight and comfortable, with a quick-lacing system."
+    },
+    {
+     "t": "EcoStep Recycle outsole",
+     "d": "Recycled materials leave white speckles in the rubber, which are not defects or dirt."
+    },
+    {
+     "t": "6 mm EVA midsole",
+     "d": "Adds comfort underfoot."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้าเทรนนิ่งยอดนิยม ใช้ได้ทั้งในร่มและกลางแจ้ง",
+   "intro": "รองเท้าเทรนนิ่งอเนกประสงค์ที่ใช้ได้ทั้งในร่มและกลางแจ้ง อัปเปอร์ถักนุ่มพร้อมระบบเชือกแบบรัดเร็ว และเอาท์โซล Vibram EcoStep Recycle น้ำหนักเบา นุ่ม สวมสบาย เหมาะกับคลาสฟิตเนส ยกน้ำหนัก คาร์ดิโอ และการออกกำลังกายในยิมอื่นๆ",
+   "feats": [
+    {
+     "t": "ใช้ได้ทั้งในและนอกอาคาร",
+     "d": "เหมาะกับการเทรนนิ่งทั่วไปทั้งในร่มและกลางแจ้ง"
+    },
+    {
+     "t": "อัปเปอร์ถักนุ่ม",
+     "d": "น้ำหนักเบา สวมสบาย พร้อมระบบเชือกแบบรัดเร็ว"
+    },
+    {
+     "t": "เอาท์โซล EcoStep Recycle",
+     "d": "ยางผสมวัสดุรีไซเคิลจึงมีจุดสีขาวกระจายอยู่ ไม่ใช่ตำหนิหรือความสกปรก"
+    },
+    {
+     "t": "มิดโซล EVA 6 มม.",
+     "d": "เพิ่มความสบายใต้ฝ่าเท้า"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 7.4oz / W38: 5.64oz",
+    "en": "Men's EU43: 7.4 oz / Women's EU38: 5.64 oz",
+    "th": "ผู้ชาย EU43: 7.4 ออนซ์ / ผู้หญิง EU38: 5.64 ออนซ์"
+   },
+   "sole": {
+    "ja": "ミッドソール6mm EVA+インソール2mm EVA(抗菌Drilexソックライナー)",
+    "en": "6 mm EVA midsole + 2 mm EVA insole with anti-microbial Drilex sockliner",
+    "th": "มิดโซล EVA 6 มม. + พื้นเสริม EVA 2 มม. พร้อม Drilex sockliner ต้านเชื้อแบคทีเรีย"
+   },
+   "upper": {
+    "ja": "低伸縮ポリエステルフィラメント100%",
+    "en": "100% low elastic polyester filament",
+    "th": "โพลีเอสเตอร์ฟิลาเมนต์ยืดหยุ่นต่ำ 100%"
+   }
+  }
+ },
+ "Graspifier": {
+  "ja": {
+   "tagline": "グローブのようにフィットする軽量トレーニングモデル",
+   "intro": "地面に近い感覚と柔軟性、自然な足の動きを支える軽量なミニマルシューズ。Max Feelアプローチの薄い分割ソールで地面を捉え、伸縮性のあるアッパーが足にフィットします。ウェイトトレーニングや屋内ジムに最適です。",
+   "feats": [
+    {
+     "t": "Max Feel ソール",
+     "d": "5mmの分割構造で、柔軟性と自然な足の動きを支えます。"
+    },
+    {
+     "t": "グローブのようなフィット",
+     "d": "通気性と伸縮性のあるアッパーが足を包み込みます。"
+    },
+    {
+     "t": "EcoStep ソール",
+     "d": "Vibramのプレコンシューマー再生ラバーを25〜30%使用したEcoStepソールです。"
+    },
+    {
+     "t": "最大の接地感",
+     "d": "最大限の感覚フィードバックを得られます。"
+    },
+    {
+     "t": "ウェイトトレーニング向け",
+     "d": "バランスや安定感、地面の感覚が重要な屋内ジムに最適です。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Lightweight minimalist shoe for a glove-like fit and max ground feel",
+   "intro": "A lightweight minimalist shoe designed for a close-to-the-ground feel, flexibility and natural foot movement. Built on Vibram's Max Feel approach, its thin, segmented sole enhances ground awareness, while the breathable stretch upper conforms to the foot. Best suited to weight training and indoor gym routines.",
+   "feats": [
+    {
+     "t": "Max Feel segmented sole",
+     "d": "A 5 mm sole supports flexibility and natural foot articulation."
+    },
+    {
+     "t": "Glove-like fit",
+     "d": "The breathable, stretchy synthetic upper wraps the foot."
+    },
+    {
+     "t": "EcoStep sole",
+     "d": "Made with 25–30% recycled pre-consumer Vibram rubber."
+    },
+    {
+     "t": "Max ground feel",
+     "d": "Gives maximum sensory feedback and natural movement."
+    },
+    {
+     "t": "Made for gym training",
+     "d": "Best for weight training and indoor routines where balance and stability matter."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้ามินิมอลน้ำหนักเบา สวมกระชับเหมือนถุงมือ สัมผัสพื้นสูงสุด",
+   "intro": "รองเท้ามินิมอลน้ำหนักเบา ออกแบบเพื่อให้รู้สึกใกล้พื้น ยืดหยุ่น และขยับเท้าได้เป็นธรรมชาติ ด้วยแนวคิด Max Feel พื้นบางแบบแบ่งส่วนช่วยให้รับรู้พื้นได้ดี ส่วนอัปเปอร์ยืดหยุ่นระบายอากาศได้กระชับพอดีเท้า เหมาะกับการเทรนนิ่งด้วยน้ำหนักและการออกกำลังกายในยิม",
+   "feats": [
+    {
+     "t": "พื้นแบ่งส่วนแบบ Max Feel",
+     "d": "พื้นหนา 5 มม. ช่วยให้ยืดหยุ่นและเท้าขยับได้เป็นธรรมชาติ"
+    },
+    {
+     "t": "กระชับเหมือนถุงมือ",
+     "d": "อัปเปอร์สังเคราะห์ยืดหยุ่น ระบายอากาศได้ ห่อหุ้มเท้าพอดี"
+    },
+    {
+     "t": "พื้น EcoStep",
+     "d": "ผสมยาง Vibram รีไซเคิลก่อนผ่านผู้บริโภค 25–30%"
+    },
+    {
+     "t": "สัมผัสพื้นสูงสุด",
+     "d": "ให้การตอบสนองจากพื้นสูงสุดและเคลื่อนไหวได้เป็นธรรมชาติ"
+    },
+    {
+     "t": "เหมาะกับเทรนนิ่งในยิม",
+     "d": "เหมาะกับการเวทเทรนนิ่งและการออกกำลังกายในร่มที่ต้องการสมดุลและความมั่นคง"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "W37: 65g / M43: 81g",
+    "en": "Women's EU37: 65 g / Men's EU43: 81 g",
+    "th": "ผู้หญิง EU37: 65 กรัม / ผู้ชาย EU43: 81 กรัม"
+   },
+   "sole": {
+    "ja": "総厚5mmの分割構造(アウトソール3mmラバー+インソール2mm EVA)",
+    "en": "5 mm total thickness, segmented construction (3 mm rubber outsole + 2 mm EVA insole)",
+    "th": "หนารวม 5 มม. โครงสร้างแบบแบ่งส่วน (เอาท์โซลยาง 3 มม. + พื้นเสริม EVA 2 มม.)"
+   },
+   "upper": {
+    "ja": "通気性と伸縮性のある合成素材(ポリメッシュ)",
+    "en": "Breathable, stretchy synthetic upper (poly mesh)",
+    "th": "วัสดุสังเคราะห์ยืดหยุ่น ระบายอากาศดี (poly mesh)"
+   }
+  }
+ },
+ "Groundsplay": {
+  "ja": {
+   "tagline": "二重構造アッパーで固定する極薄の屋内トレーニング用",
+   "intro": "極めて薄く優れたグリップ力を備えた屋内トレーニング用ミニマルシューズ。内側のインナーストラップと外側のカバーによる二重構造のアッパーが足をしっかり固定し、つま先は柔軟で足指の動きを妨げません。",
+   "feats": [
+    {
+     "t": "ダブルクロージャー",
+     "d": "内側のインナーストラップと外側のカバーで足を固定します。"
+    },
+    {
+     "t": "極薄4.5mmソール",
+     "d": "マイクロトラクションラグがグリップと柔軟性を高めます。"
+    },
+    {
+     "t": "独立したつま先",
+     "d": "足指が自然に動き、バランスと安定を助けます。"
+    },
+    {
+     "t": "EcoStep ソール",
+     "d": "Vibram EcoStepコンパウンドで確かなトラクションを発揮します。"
+    },
+    {
+     "t": "屋内トレーニング向け",
+     "d": "ウェイト、サーキット、高強度の屋内セッションに最適です。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Ultra-thin indoor training shoe with a double-closure system",
+   "intro": "A minimalist training shoe built for maximum control, flexibility and ground connection during indoor workouts. An ultra-thin 4.5 mm sole with micro-traction lugs and articulated toes supports balance, while the double-closure upper locks the foot in place.",
+   "feats": [
+    {
+     "t": "Double-closure system",
+     "d": "An inner strap and outer cover keep the foot locked in and supported."
+    },
+    {
+     "t": "Ultra-thin 4.5 mm sole",
+     "d": "Micro-traction lugs add grip and flexibility."
+    },
+    {
+     "t": "Articulated toes",
+     "d": "Allow natural toe movement for balance and stability."
+    },
+    {
+     "t": "Vibram EcoStep outsole",
+     "d": "Offers reliable traction with a more sustainable material approach."
+    },
+    {
+     "t": "Built for indoor training",
+     "d": "Best for weightlifting, strength work and circuit training."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้าเทรนนิ่งในร่มพื้นบางพิเศษ พร้อมระบบล็อกสองชั้น",
+   "intro": "รองเท้ามินิมอลสำหรับเทรนนิ่งในร่ม ให้การควบคุม ความยืดหยุ่น และการสัมผัสพื้นสูงสุด พื้นบางพิเศษ 4.5 มม. พร้อม micro-traction lugs และนิ้วเท้าแยกส่วนช่วยเรื่องการทรงตัว ส่วนอัปเปอร์แบบล็อกสองชั้นยึดเท้าให้แน่นกระชับ",
+   "feats": [
+    {
+     "t": "ระบบล็อกสองชั้น",
+     "d": "สายด้านในและแผ่นครอบด้านนอกช่วยล็อกเท้าให้แน่นและมั่นคง"
+    },
+    {
+     "t": "พื้นบางพิเศษ 4.5 มม.",
+     "d": "micro-traction lugs ช่วยเพิ่มการยึดเกาะและความยืดหยุ่น"
+    },
+    {
+     "t": "นิ้วเท้าแยกส่วน",
+     "d": "นิ้วเท้าขยับได้เป็นธรรมชาติ ช่วยเรื่องการทรงตัวและความมั่นคง"
+    },
+    {
+     "t": "เอาท์โซล Vibram EcoStep",
+     "d": "ยึดเกาะได้ดี ด้วยวัสดุที่เป็นมิตรต่อสิ่งแวดล้อมมากขึ้น"
+    },
+    {
+     "t": "เหมาะกับเทรนนิ่งในร่ม",
+     "d": "เหมาะกับยกน้ำหนัก ฝึกความแข็งแรง และเซอร์กิตเทรนนิ่ง"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "W37: 106.6g / M43: 147.2g",
+    "en": "Women's EU37: 106.6 g / Men's EU43: 147.2 g",
+    "th": "ผู้หญิง EU37: 106.6 กรัม / ผู้ชาย EU43: 147.2 กรัม"
+   },
+   "sole": {
+    "ja": "総厚4.5mm(ラバーアウトソール2.5mm+インソール2mm EVA)、マイクロトラクションラグ",
+    "en": "4.5 mm total (2.5 mm rubber outsole + 2 mm EVA insole) with micro-traction lugs",
+    "th": "หนารวม 4.5 มม. (เอาท์โซลยาง 2.5 มม. + พื้นเสริม EVA 2 มม.) พร้อม micro-traction lugs"
+   },
+   "upper": {
+    "ja": "マイクロファイバーポリメッシュ(ダブルクロージャー)",
+    "en": "Microfiber poly mesh with double-closure system",
+    "th": "Microfiber poly mesh พร้อมระบบล็อกสองชั้น"
+   }
+  }
+ }
+}

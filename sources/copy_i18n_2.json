@@ -1,0 +1,196 @@
+{
+ "KSO": {
+  "ja": {
+   "tagline": "汎用性の高い、Keep Stuff Out の KSO",
+   "intro": "KSOは汎用性の高さから、最も成功したFiveFingersの一つと言えるモデルです。足全体を包む薄く耐摩耗性のあるストレッチポリアミドと通気性のあるストレッチメッシュで、砂利や砂の侵入を防ぎます。フィット感はスナグで、ソールは最小限の構造で優れたグランドフィールを実現します。",
+   "feats": [
+    {
+     "t": "スナグなフィット",
+     "d": "足全体を包むストレッチ素材と、ひとつのフック&ループ式クロージャーで、しっかりとフィットを保ちます。"
+    },
+    {
+     "t": "砂利・砂の侵入を防ぐ",
+     "d": "薄く耐摩耗性のあるストレッチポリアミドと通気性ストレッチメッシュが足全体を覆い、Keep Stuff Out を実現します。"
+    },
+    {
+     "t": "通気性と速乾性",
+     "d": "アッパーは通気性があり、乾きの早い素材です。"
+    },
+    {
+     "t": "最小限のソール構造",
+     "d": "最小限のソール構造のひとつで、最大限のグランドフィールが得られます。"
+    },
+    {
+     "t": "XS Trek ラバーソール",
+     "d": "跡が残らない Non-Marking の XS Trek performance rubber に細かなサイプが入り、確かなグリップを発揮します。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Keep Stuff Out: the versatile KSO with a snug fit",
+   "intro": "The KSO is arguably our most successful FiveFinger to date, mainly due to its versatility. It has a snug fit, one of our most minimal sole constructions for maximum ground feel, and a breathable, quick-drying upper. A thin, abrasion-resistant stretch polyamide and breathable stretch mesh wraps your entire foot to keep gravel and grit out.",
+   "feats": [
+    {
+     "t": "Snug fit",
+     "d": "A single hook-and-loop closure helps secure the fit."
+    },
+    {
+     "t": "Keeps gravel and grit out",
+     "d": "A thin, abrasion-resistant stretch polyamide and breathable stretch mesh wrap your entire foot."
+    },
+    {
+     "t": "Breathable, quick-drying upper",
+     "d": "The upper is designed to breathe and dry quickly."
+    },
+    {
+     "t": "Minimal sole construction",
+     "d": "One of our most minimal sole constructions, for maximum ground feel."
+    },
+    {
+     "t": "XS Trek rubber sole",
+     "d": "Non-marking XS Trek performance rubber soles are razor-siped for sure grip."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "KSO รุ่นอเนกประสงค์ที่ Keep Stuff Out กันก้อนกรวดและเศษดิน",
+   "intro": "KSO ถือเป็น FiveFingers ที่ประสบความสำเร็จที่สุดรุ่นหนึ่ง เพราะใช้งานได้หลากหลาย ฟิตกระชับพอดีเท้า พื้นรองเท้าบางเฉียบเพื่อสัมผัสพื้นได้เต็มที่ และอัปเปอร์ระบายอากาศได้ดี แห้งไว วัสดุ stretch polyamide ที่บางทนต่อการเสียดสี และตาข่าย stretch ระบายอากาศ ห่อหุ้มเท้าทั้งเท้า ช่วยกันก้อนกรวดและเศษดินไม่ให้เข้ามา",
+   "feats": [
+    {
+     "t": "ฟิตกระชับพอดีเท้า",
+     "d": "สายตีนตุ๊กแกเส้นเดียวช่วยล็อกให้รองเท้าฟิตกระชับ"
+    },
+    {
+     "t": "กันกรวดและเศษดิน",
+     "d": "stretch polyamide ที่บางและทนต่อการเสียดสี ร่วมกับตาข่าย stretch ระบายอากาศ ห่อหุ้มเท้าทั้งเท้า"
+    },
+    {
+     "t": "อัปเปอร์ระบายอากาศ แห้งไว",
+     "d": "อัปเปอร์ระบายอากาศได้ดีและแห้งเร็ว"
+    },
+    {
+     "t": "โครงสร้างพื้นบางเฉียบ",
+     "d": "เป็นหนึ่งในโครงสร้างพื้นรองเท้าที่บางที่สุดของเรา เพื่อสัมผัสพื้นได้เต็มที่"
+    },
+    {
+     "t": "พื้นยาง XS Trek",
+     "d": "พื้นยาง XS Trek performance rubber แบบไม่ทิ้งรอย มีรอยบากละเอียดให้การยึดเกาะที่มั่นใจ"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "W38: 4.71 oz",
+    "en": "Women's EU38: 4.71 oz",
+    "th": "ผู้หญิง EU38: 4.71 ออนซ์"
+   },
+   "sole": {
+    "ja": "ラバー 3.5 mm(インソール: ポリエステルマイクロファイバー、ミッドソールなし)",
+    "en": "3.5 mm rubber; polyester microfiber insole; no midsole",
+    "th": "ยางหนา 3.5 มม. พื้นในโพลีเอสเตอร์ไมโครไฟเบอร์ ไม่มีมิดโซล"
+   },
+   "upper": {
+    "ja": "ストレッチポリアミド、ポリエステル、Hypalon",
+    "en": "Stretch polyamide, polyester, Hypalon",
+    "th": "stretch polyamide, โพลีเอสเตอร์, Hypalon"
+   }
+  }
+ },
+ "Furoshiki EcoFree": {
+  "ja": {
+   "tagline": "風呂敷に着想を得た、エコ志向のラッピングソール",
+   "intro": "Furoshiki ECO FREE は、人気のラッピングソールをエコ志向にしたモデルです。物を布で包み運ぶ日本の伝統に着想を得て、柔らかなアッパーが足を心地よく包み、しっかり固定します。ソールは天然成分90%以上の Vibram Ecostep Natural です。",
+   "feats": [
+    {
+     "t": "風呂敷に着想を得た設計",
+     "d": "柔らかなアッパーが足を包み、素早く簡単にフィットします。"
+    },
+    {
+     "t": "Vibram Ecostep Natural",
+     "d": "耐久性と柔軟性があり、天然成分を90%以上使用したアウトソールです。"
+    },
+    {
+     "t": "天然顔料のソールカラー",
+     "d": "ソール独自の色は100%天然顔料に由来します。"
+    },
+    {
+     "t": "リサイクル素材のアッパー",
+     "d": "アッパーは90%がリサイクル素材で、4方向ストレッチにより足にぴったりフィットします。"
+    },
+    {
+     "t": "柔らかいEVAフットベッド",
+     "d": "ミニマルなフットベッドは柔らかなEVA製で、ライニング糸にはリサイクルポリエステルを使用しています。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Eco-conscious wrapping sole inspired by furoshiki",
+   "intro": "The Furoshiki ECO FREE is the eco-conscious version of our popular wrapping sole. Inspired by the Japanese tradition of wrapping, carrying and holding objects in cloth, the soft upper wraps comfortably around the foot and secures snugly for a quick, easy fit. It features a durable, flexible Vibram Ecostep Natural outsole made with more than 90% natural ingredients.",
+   "feats": [
+    {
+     "t": "Inspired by furoshiki",
+     "d": "The soft upper fabric wraps around the foot and secures snugly for a quick, easy fit."
+    },
+    {
+     "t": "Vibram Ecostep Natural outsole",
+     "d": "A durable, flexible outsole made with more than 90% natural ingredients."
+    },
+    {
+     "t": "Natural pigment sole color",
+     "d": "The unique sole coloration comes from 100% natural pigments."
+    },
+    {
+     "t": "Recycled 4-way stretch upper",
+     "d": "The upper is made from 90% recycled materials and features 4-way stretch for a perfect fit."
+    },
+    {
+     "t": "Soft EVA footbed",
+     "d": "A minimal EVA footbed adds comfort, and the lining yarns include a high percentage of recycled polyester."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้าแนวห่อเท้าที่ใส่ใจสิ่งแวดล้อม แรงบันดาลใจจากฟุโรชิกิ",
+   "intro": "Furoshiki ECO FREE คือรุ่นรักษ์โลกของรองเท้าแนวห่อเท้ายอดนิยม ได้แรงบันดาลใจจากประเพณีญี่ปุ่นในการห่อ พกพา และถือสิ่งของด้วยผ้า ผ้าอัปเปอร์นุ่มห่อหุ้มเท้าอย่างสบายและกระชับพอดี สวมใส่ง่ายรวดเร็ว พื้นนอก Vibram Ecostep Natural ทนทานและยืดหยุ่น ผลิตจากส่วนผสมธรรมชาติมากกว่า 90%",
+   "feats": [
+    {
+     "t": "แรงบันดาลใจจากฟุโรชิกิ",
+     "d": "ผ้าอัปเปอร์นุ่มห่อหุ้มเท้าและกระชับพอดี สวมใส่ง่ายรวดเร็ว"
+    },
+    {
+     "t": "พื้นนอก Vibram Ecostep Natural",
+     "d": "พื้นนอกทนทานและยืดหยุ่น ผลิตจากส่วนผสมธรรมชาติมากกว่า 90%"
+    },
+    {
+     "t": "สีพื้นจากเม็ดสีธรรมชาติ",
+     "d": "สีพื้นรองเท้าอันเป็นเอกลักษณ์มาจากเม็ดสีธรรมชาติ 100%"
+    },
+    {
+     "t": "อัปเปอร์รีไซเคิล ยืดได้ 4 ทิศทาง",
+     "d": "อัปเปอร์ผลิตจากวัสดุรีไซเคิล 90% ยืดได้ 4 ทิศทางเพื่อความฟิตที่พอดี"
+    },
+    {
+     "t": "พื้นในนุ่ม EVA",
+     "d": "พื้นในแบบมินิมอลทำจาก EVA นุ่มสบาย และเส้นด้ายซับในมีสัดส่วนโพลีเอสเตอร์รีไซเคิลสูง"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 355g / W38: 293g",
+    "en": "Men's EU43: 355 g / Women's EU38: 293 g",
+    "th": "ผู้ชาย EU43: 355 กรัม / ผู้หญิง EU38: 293 กรัม"
+   },
+   "sole": {
+    "ja": "厚さ 前足部3.0mm / かかと3.7mm",
+    "en": "3.0 mm forefoot, 3.7 mm heel",
+    "th": "หนา 3.0 มม. ส่วนปลายเท้า / 3.7 มม. ส้นเท้า"
+   },
+   "upper": {
+    "ja": "リサイクルナイロン55%、リサイクルポリエステル35%、スパンデックス10%",
+    "en": "55% recycled nylon, 35% recycled polyester, 10% spandex",
+    "th": "ไนลอนรีไซเคิล 55% โพลีเอสเตอร์รีไซเคิล 35% สแปนเด็กซ์ 10%"
+   }
+  }
+ }
+}

@@ -1,0 +1,742 @@
+{
+ "Groundsplay LS": {
+  "ja": {
+   "tagline": "薄くて柔軟、屋内ジム向けの一足",
+   "intro": "極薄ソールとマイクロトラクションラグを備え、つま先部分は非常に柔軟でダイナミックな動きをサポートします。ウエイトトレーニングやサーキットトレーニングに必要なグリップとコントロールを発揮します。",
+   "feats": [
+    {
+     "t": "ウエイトトレーニング向け",
+     "d": "安定性とコントロール、地面との一体感が求められるウエイトやストレングス種目に最適です。"
+    },
+    {
+     "t": "マイクロトラクションラグ",
+     "d": "グリップと柔軟性を高めるマイクロトラクションラグを採用しています。"
+    },
+    {
+     "t": "Vibram EcoStep Natural",
+     "d": "グリップ力とより持続可能な配合を重視したVibram EcoStep Naturalコンパウンドを使用しています。"
+    },
+    {
+     "t": "Max ground feel",
+     "d": "優れた感覚フィードバックで、精密にコントロールできます。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Very thin, flexible sole for indoor gym training",
+   "intro": "Built with a very thin section and micro-traction lugs, the Groundsplay sole has extremely flexible toes for dynamic movement. Whether lifting weights or moving through training circuits, it provides the grip and control needed to maximize performance.",
+   "feats": [
+    {
+     "t": "Made for weight training",
+     "d": "Best for weightlifting, strength training and circuit workouts where stability, control and ground connection are essential."
+    },
+    {
+     "t": "Micro-traction lugs",
+     "d": "The 4.5 mm sole uses micro-traction lugs for enhanced grip and flexibility."
+    },
+    {
+     "t": "Vibram EcoStep Natural",
+     "d": "The outsole compound is developed with a focus on grip and a more sustainable formulation."
+    },
+    {
+     "t": "Max ground feel",
+     "d": "Superior sensory feedback for precise control."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "พื้นบางพิเศษ ยืดหยุ่นสูง เหมาะกับการเทรนในยิม",
+   "intro": "พื้นรองเท้าบางมากพร้อม micro-traction lugs ส่วนปลายเท้ายืดหยุ่นสูง รองรับการเคลื่อนไหวได้อย่างคล่องตัว ไม่ว่าจะยกเวทหรือเทรนแบบเซอร์กิต ก็ให้การยึดเกาะและการควบคุมที่จำเป็นเพื่อดึงประสิทธิภาพออกมาให้เต็มที่",
+   "feats": [
+    {
+     "t": "เหมาะกับการเทรนเวท",
+     "d": "เหมาะสำหรับการยกเวท เวทเทรนนิ่ง และเซอร์กิตเทรนนิ่งที่ต้องการความมั่นคง การควบคุม และสัมผัสพื้น"
+    },
+    {
+     "t": "Micro-traction lugs",
+     "d": "พื้นหนา 4.5 มม. ใช้ micro-traction lugs เพื่อเพิ่มการยึดเกาะและความยืดหยุ่น"
+    },
+    {
+     "t": "Vibram EcoStep Natural",
+     "d": "สารประกอบพื้นนอกพัฒนาโดยเน้นการยึดเกาะและสูตรที่เป็นมิตรต่อสิ่งแวดล้อมมากขึ้น"
+    },
+    {
+     "t": "Max ground feel",
+     "d": "ให้การรับรู้สัมผัสพื้นอย่างเต็มที่ ควบคุมได้แม่นยำ"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 147.2g / W37: 106.6g",
+    "en": "Men's EU43: 147.2 g / Women's EU37: 106.6 g",
+    "th": "ผู้ชาย EU43: 147.2 กรัม / ผู้หญิง EU37: 106.6 กรัม"
+   },
+   "sole": {
+    "ja": "総厚4.5mm、マイクロトラクションラグ",
+    "en": "4.5 mm total thickness with micro-traction lugs",
+    "th": "ความหนารวม 4.5 มม. พร้อม micro-traction lugs"
+   },
+   "upper": {
+    "ja": "通気性メッシュ、プリント補強",
+    "en": "Breathable mesh with print reinforcements",
+    "th": "ตาข่ายระบายอากาศ เสริมด้วยลายพิมพ์"
+   }
+  }
+ },
+ "V-Alpha": {
+  "ja": {
+   "tagline": "アウトドア向けのミニマルトレーニングシューズ",
+   "intro": "足を守りながら地面の感覚、パフォーマンス、器用さを保つ、ブランドの原点に忠実なモデルです。柔軟なラバーアウトソールには、最も汎用性の高いVibram Megagripコンパウンドを採用しています。",
+   "feats": [
+    {
+     "t": "Vibram Megagrip",
+     "d": "濡れた路面でも乾いた路面でも、グリップ力と耐久性を長く保ちます。"
+    },
+    {
+     "t": "3.7mmの柔軟なソール",
+     "d": "ラバーアウトソールは3.7mmで、足を守りつつ地面の感覚を伝えます。"
+    },
+    {
+     "t": "ウール混アッパー",
+     "d": "ウールと化学繊維が50/50で、通気性を高め匂いを軽減します。"
+    },
+    {
+     "t": "快適なインソール",
+     "d": "2mmのフォームインソールが快適性を高めます。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "The essential outdoor minimal training tool",
+   "intro": "The V-Alpha is true to Vibram's original philosophy: a protective tool for the foot that allows ground sensory perception, performance and dexterity. The flexible rubber outsole features Vibram Megagrip, the most versatile compound.",
+   "feats": [
+    {
+     "t": "Vibram Megagrip",
+     "d": "Provides grip and durability over time in both wet and dry conditions."
+    },
+    {
+     "t": "3.7 mm flexible outsole",
+     "d": "A flexible rubber outsole that protects the foot while keeping ground feel."
+    },
+    {
+     "t": "Wool blend upper",
+     "d": "A 50/50 wool and synthetic upper improves breathability and reduces odor."
+    },
+    {
+     "t": "Comfort insole",
+     "d": "A 2 mm foam insole adds comfort."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้ามินิมอลสำหรับเทรนกลางแจ้ง",
+   "intro": "V-Alpha ยึดปรัชญาดั้งเดิมของ Vibram คือเป็นเครื่องมือปกป้องเท้าที่ยังรับรู้สัมผัสพื้น คงประสิทธิภาพและความคล่องตัวไว้ พื้นยางยืดหยุ่นใช้ Vibram Megagrip สารประกอบที่ใช้งานได้หลากหลายที่สุด",
+   "feats": [
+    {
+     "t": "Vibram Megagrip",
+     "d": "ให้การยึดเกาะและความทนทานในระยะยาว ทั้งสภาพเปียกและแห้ง"
+    },
+    {
+     "t": "พื้นยืดหยุ่น 3.7 มม.",
+     "d": "พื้นยางยืดหยุ่นช่วยปกป้องเท้าและยังรับรู้สัมผัสพื้น"
+    },
+    {
+     "t": "อัปเปอร์ผสมขนแกะ",
+     "d": "วัสดุขนแกะ/สังเคราะห์ 50/50 ช่วยระบายอากาศและลดกลิ่น"
+    },
+    {
+     "t": "พื้นรองเท้าด้านในนุ่ม",
+     "d": "แผ่นรองด้านในโฟมหนา 2 มม. เพิ่มความสบาย"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "103g（サイズ記載なし）",
+    "en": "103 g / 3.65 oz",
+    "th": "103 กรัม"
+   },
+   "sole": {
+    "ja": "3.7mmラバーアウトソール、2mmフォームインソール",
+    "en": "3.7 mm rubber outsole, 2 mm foam insole",
+    "th": "พื้นนอกยางหนา 3.7 มม. แผ่นรองด้านในโฟมหนา 2 มม."
+   },
+   "upper": {
+    "ja": "ウール/合成繊維 50/50",
+    "en": "50/50 wool / synthetic",
+    "th": "ขนแกะ/วัสดุสังเคราะห์ 50/50"
+   }
+  }
+ },
+ "V-Trek": {
+  "ja": {
+   "tagline": "ハイキングやトレッキングにおすすめ",
+   "intro": "4mmのMEGAGRIPソールは、柔軟性、グリップ力、耐久性を兼ね備え、ハイキングやトレッキングにおすすめです。スタイリッシュなデザインで、普段履きとしても人気です。",
+   "feats": [
+    {
+     "t": "4mm Megagripソール",
+     "d": "様々な路面で優れた性能を発揮する4mmのラバーソールです。"
+    },
+    {
+     "t": "ウール混アッパー",
+     "d": "ウールと化学繊維が50/50の割合で、保温や防臭効果があります。"
+    },
+    {
+     "t": "ソフトなインソール",
+     "d": "4mmのソフトポリウレタン製インソールを備えています。"
+    },
+    {
+     "t": "普段履きにも",
+     "d": "スタイリッシュなデザインで、私服との相性も抜群です。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Recommended for hiking and trekking",
+   "intro": "The 4 mm Megagrip sole combines flexibility, grip and durability, making it a recommended choice for hiking and trekking. Its stylish design also makes it popular for everyday wear.",
+   "feats": [
+    {
+     "t": "4 mm Megagrip outsole",
+     "d": "A 4 mm rubber Megagrip outsole for optimal performance on a variety of surfaces."
+    },
+    {
+     "t": "Wool blend upper",
+     "d": "A 50/50 wool and synthetic upper provides warmth and odor control."
+    },
+    {
+     "t": "Soft insole",
+     "d": "Fitted with a 4 mm soft polyurethane insole."
+    },
+    {
+     "t": "Stylish everyday look",
+     "d": "The stylish design pairs well with casual clothing."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "แนะนำสำหรับไฮกิ้งและเทรคกิ้ง",
+   "intro": "พื้น Megagrip หนา 4 มม. ผสานความยืดหยุ่น การยึดเกาะ และความทนทาน เหมาะกับการไฮกิ้งและเทรคกิ้ง ดีไซน์ทันสมัย จึงได้รับความนิยมสำหรับใส่ในชีวิตประจำวันด้วย",
+   "feats": [
+    {
+     "t": "พื้น Megagrip 4 มม.",
+     "d": "พื้นยาง Megagrip หนา 4 มม. ให้ประสิทธิภาพที่ดีบนพื้นผิวหลากหลายประเภท"
+    },
+    {
+     "t": "อัปเปอร์ผสมขนแกะ",
+     "d": "วัสดุขนแกะ/สังเคราะห์ในสัดส่วน 50/50 ช่วยให้ความอบอุ่นและลดกลิ่น"
+    },
+    {
+     "t": "แผ่นรองด้านในนุ่ม",
+     "d": "ใช้แผ่นรองด้านในโพลียูรีเทนนุ่มหนา 4 มม."
+    },
+    {
+     "t": "ใส่ได้ทุกวัน",
+     "d": "ดีไซน์ทันสมัย เข้ากับเสื้อผ้าลำลองได้ดี"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "W38: 139g",
+    "en": "Women's EU38: 139 g",
+    "th": "ผู้หญิง EU38: 139 กรัม"
+   },
+   "sole": {
+    "ja": "4mm Megagripラバーアウトソール",
+    "en": "4 mm rubber Megagrip outsole",
+    "th": "พื้นนอกยาง Megagrip หนา 4 มม."
+   },
+   "upper": {
+    "ja": "ウール/合成繊維 50/50",
+    "en": "50/50 wool / synthetic",
+    "th": "ขนแกะ/วัสดุสังเคราะห์ 50/50"
+   }
+  }
+ },
+ "Trailope": {
+  "ja": {
+   "tagline": "トレイルランニング向けのミニマルFiveFingers",
+   "intro": "砂利などの侵入を抑えるウィングオーバーレイを備えた、トレイルランニング向けモデルです。5.7mmソールに3D Cocoon保護レイヤーを内蔵し、地面の感覚を保ちながら小さな鋭利物の衝撃を分散します。",
+   "feats": [
+    {
+     "t": "Vibram Megagrip",
+     "d": "乾いた路面でも濡れた路面でもトラクションを発揮します。"
+    },
+    {
+     "t": "3D Cocoon保護レイヤー",
+     "d": "岩やデブリなど小さな鋭利物の衝撃を分散し、地面の感覚を保ちます。"
+    },
+    {
+     "t": "ウィングオーバーレイ",
+     "d": "土や砂利などの侵入を抑え、つま先周りのフィット感と快適性を高めます。"
+    },
+    {
+     "t": "不整地・岩場向け",
+     "d": "混合路面や凹凸のある岩場のトレイルランに適しています。"
+    },
+    {
+     "t": "耐久性と安定したフィット",
+     "d": "トレイルでの耐久性と確かなフィット感を求める方に向いています。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "A reliable minimalist trail running companion",
+   "intro": "Trailope is a trail running shoe designed with a focus on comfort, protection and performance. The 5.7 mm sole integrates the 3D Cocoon protection layer, which disperses impact from small sharp objects while maintaining ground feel and responsiveness.",
+   "feats": [
+    {
+     "t": "Vibram Megagrip",
+     "d": "Engineered for traction on both dry and wet terrain."
+    },
+    {
+     "t": "3D Cocoon protection",
+     "d": "Disperses impact from rocks and debris while keeping ground feel."
+    },
+    {
+     "t": "Debris-resistant wing overlay",
+     "d": "Helps limit the entry of dirt and trail elements, and enhances fit around the toes."
+    },
+    {
+     "t": "Mixed and rocky terrain",
+     "d": "Perfect for trail running on mixed terrain and uneven, rocky paths."
+    },
+    {
+     "t": "Durable, secure fit",
+     "d": "Built for users seeking durability and a secure fit on trails."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้าเทรลรันนิ่งแบบมินิมอลที่ไว้ใจได้",
+   "intro": "Trailope ออกแบบสำหรับเทรลรันนิ่ง โดยเน้นความสบาย การปกป้อง และประสิทธิภาพ พื้นหนา 5.7 มม. มีชั้นป้องกัน 3D Cocoon ช่วยกระจายแรงกระแทกจากวัตถุแหลมเล็ก ๆ โดยยังคงสัมผัสพื้นและการตอบสนองที่ดี",
+   "feats": [
+    {
+     "t": "Vibram Megagrip",
+     "d": "ออกแบบให้ยึดเกาะได้ดีทั้งบนพื้นแห้งและพื้นเปียก"
+    },
+    {
+     "t": "ชั้นป้องกัน 3D Cocoon",
+     "d": "กระจายแรงกระแทกจากหินและเศษวัสดุ โดยยังรับรู้สัมผัสพื้นได้"
+    },
+    {
+     "t": "Wing overlay กันเศษวัสดุ",
+     "d": "ช่วยลดการเข้าของฝุ่นและเศษต่าง ๆ บนเส้นทาง และช่วยให้กระชับสบายบริเวณปลายเท้า"
+    },
+    {
+     "t": "พื้นผิวผสมและทางหิน",
+     "d": "เหมาะกับการวิ่งเทรลบนพื้นผิวผสมและเส้นทางขรุขระที่เป็นหิน"
+    },
+    {
+     "t": "ทนทานและกระชับ",
+     "d": "เหมาะกับผู้ที่ต้องการความทนทานและการสวมใส่ที่กระชับบนเส้นทางเทรล"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 172.9g / W37: 128.1g",
+    "en": "Men's EU43: 172.9 g / Women's EU37: 128.1 g",
+    "th": "ผู้ชาย EU43: 172.9 กรัม / ผู้หญิง EU37: 128.1 กรัม"
+   },
+   "sole": {
+    "ja": "総厚5.7mm、3D Cocoon保護レイヤー内蔵",
+    "en": "5.7 mm total thickness with integrated 3D Cocoon layer",
+    "th": "ความหนารวม 5.7 มม. พร้อมชั้นป้องกัน 3D Cocoon"
+   },
+   "upper": {
+    "ja": "メッシュのウィングオーバーレイ、高耐久ポリエステル",
+    "en": "Mesh wing overlay and extra resistant polyester fabric",
+    "th": "ตาข่าย wing overlay และผ้าโพลีเอสเตอร์ทนทานพิเศษ"
+   }
+  }
+ },
+ "Trailope WP": {
+  "ja": {
+   "tagline": "防水性能をプラスした全天候型トレイルモデル",
+   "intro": "Trailope HDryは、オリジナルTrailopeの自然な動きと感覚、グリップに、HDry技術による防水性を加えたモデルです。雨や泥、濡れたトレイルでも足をドライに保ちます。",
+   "feats": [
+    {
+     "t": "HDry防水メンブレン",
+     "d": "アッパー内側に直接ラミネートされた一体型の防水バリアで、水がたまる隙間をなくします。"
+    },
+    {
+     "t": "3.7mm Vibram Megagrip",
+     "d": "濡れた路面、岩場、不安定な路面で確かなトラクションを発揮します。"
+    },
+    {
+     "t": "ウィングオーバーレイ",
+     "d": "砂利などの侵入を抑えます。"
+    },
+    {
+     "t": "ネオプレンカラー",
+     "d": "足首にフィットして異物の混入を防ぎます。"
+    },
+    {
+     "t": "完全防水ではない点に注意",
+     "d": "履き口の位置より水位が上がると、水が入ることがあります。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Waterproof performance for the Vibram FiveFingers trail experience",
+   "intro": "Trailope HDry combines the natural movement, sensory feedback and grip of the original Trailope with the waterproof protection of HDry technology. It helps keep feet drier in rain, mud and wet trail conditions while staying flexible and breathable.",
+   "feats": [
+    {
+     "t": "HDry waterproof membrane",
+     "d": "Directly laminated to the inside of the upper as a one-piece barrier, with no gaps where water can collect."
+    },
+    {
+     "t": "3.7 mm Vibram Megagrip",
+     "d": "Reliable traction across wet, rocky and unpredictable surfaces."
+    },
+    {
+     "t": "Debris-deflecting wing overlay",
+     "d": "Helps keep debris out of the shoe."
+    },
+    {
+     "t": "Neoprene collar",
+     "d": "A conforming wrap collar that fits the ankle and helps keep foreign material out."
+    },
+    {
+     "t": "Not fully waterproof",
+     "d": "Water may enter through the collar opening if the water level rises above the ankle opening."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "เทรลชูส์กันน้ำ ให้ประสบการณ์แบบ Vibram FiveFingers",
+   "intro": "Trailope HDry ผสานการเคลื่อนไหวที่เป็นธรรมชาติ การรับรู้สัมผัสพื้น และการยึดเกาะของ Trailope รุ่นดั้งเดิม เข้ากับการป้องกันน้ำด้วยเทคโนโลยี HDry ช่วยให้เท้าแห้งสบายขึ้นในสภาพฝน โคลน และเส้นทางเปียก โดยยังยืดหยุ่นและระบายอากาศได้",
+   "feats": [
+    {
+     "t": "เมมเบรนกันน้ำ HDry",
+     "d": "ลามิเนตติดด้านในอัปเปอร์โดยตรงเป็นชั้นกันน้ำชิ้นเดียว ไม่มีช่องว่างให้น้ำขัง"
+    },
+    {
+     "t": "Vibram Megagrip 3.7 มม.",
+     "d": "ยึดเกาะได้ดีบนพื้นเปียก พื้นหิน และพื้นผิวที่คาดเดาไม่ได้"
+    },
+    {
+     "t": "Wing overlay ปัดเศษวัสดุ",
+     "d": "ช่วยลดเศษวัสดุเข้าไปในรองเท้า"
+    },
+    {
+     "t": "ขอบคอรองเท้านีโอพรีน",
+     "d": "กระชับรอบข้อเท้า ช่วยลดสิ่งแปลกปลอมเข้าไปในรองเท้า"
+    },
+    {
+     "t": "ไม่กันน้ำสมบูรณ์",
+     "d": "หากระดับน้ำสูงเกินขอบปากรองเท้า น้ำอาจเข้าทางปากรองเท้าได้"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M: 220g / W: 162g",
+    "en": "Men's: 220 g / Women's: 162 g",
+    "th": "ผู้ชาย: 220 กรัม / ผู้หญิง: 162 กรัม"
+   },
+   "sole": {
+    "ja": "3.7mm Vibram Megagripラバーアウトソール",
+    "en": "3.7 mm Vibram Megagrip rubber outsole",
+    "th": "พื้นนอกยาง Vibram Megagrip หนา 3.7 มม."
+   },
+   "upper": {
+    "ja": "撥水メッシュ + HDry防水メンブレン",
+    "en": "Water-resistant mesh with HDry waterproof membrane",
+    "th": "ตาข่ายกันน้ำ พร้อมเมมเบรนกันน้ำ HDry"
+   }
+  }
+ },
+ "Scramkey": {
+  "ja": {
+   "tagline": "岩場でのスクランブリング向けモデル",
+   "intro": "スクランブリングや技術的な動きに向けて開発された、グリップ・精度・耐久性重視のミニマルデザインです。Traction Lug技術とVibram Megagrip Eliteコンパウンドを備え、ソール一体型のパワーストラップが確実なフィットを支えます。",
+   "feats": [
+    {
+     "t": "Traction Lug技術",
+     "d": "様々な路面でのグリップと安定性を高めます。"
+    },
+    {
+     "t": "Vibram Megagrip Elite",
+     "d": "乾いた路面でも濡れた路面でもグリップ力を発揮します。"
+    },
+    {
+     "t": "ソール一体型パワーストラップ",
+     "d": "難しい動きの中でも安定したフィット感を保ちます。"
+    },
+    {
+     "t": "ダブルのフックアンドループ",
+     "d": "フィット調整ができ、登りや下りでも足を安定させます。"
+    },
+    {
+     "t": "ストレッチポリエステル + TPU補強",
+     "d": "適応性と保護性を両立し、耐久性も高めます。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "Built for scrambling and technical movement on rock",
+   "intro": "Scramkey is a minimalist design developed for scrambling in rugged outdoor environments, with a focus on grip, precision and durability. It features Traction Lug technology and the Vibram Megagrip Elite compound, plus a sole-integrated power strap for a secure fit.",
+   "feats": [
+    {
+     "t": "Traction Lug technology",
+     "d": "Enhances grip and stability on varied surfaces."
+    },
+    {
+     "t": "Vibram Megagrip Elite",
+     "d": "Developed with a focus on grip on both dry and wet surfaces."
+    },
+    {
+     "t": "Sole-integrated power strap",
+     "d": "Helps ensure a secure, stable fit during demanding movement."
+    },
+    {
+     "t": "Double hook-and-loop closure",
+     "d": "Allows an adjustable fit that keeps the foot stable on technical ascents and descents."
+    },
+    {
+     "t": "Stretch polyester and TPU",
+     "d": "TPU reinforcements balance adaptability and protection, and add durability."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "ออกแบบมาเพื่อการไต่ปีนบนทางหินและการเคลื่อนไหวเชิงเทคนิค",
+   "intro": "Scramkey เป็นดีไซน์มินิมอลที่พัฒนาสำหรับการสแครมเบิลในสภาพแวดล้อมกลางแจ้งที่ขรุขระ เน้นการยึดเกาะ ความแม่นยำ และความทนทาน มาพร้อมเทคโนโลยี Traction Lug และสารประกอบ Vibram Megagrip Elite รวมถึง power strap ที่ติดกับพื้น ช่วยให้สวมใส่กระชับมั่นคง",
+   "feats": [
+    {
+     "t": "เทคโนโลยี Traction Lug",
+     "d": "เพิ่มการยึดเกาะและความมั่นคงบนพื้นผิวหลากหลาย"
+    },
+    {
+     "t": "Vibram Megagrip Elite",
+     "d": "พัฒนาโดยเน้นการยึดเกาะทั้งบนพื้นแห้งและพื้นเปียก"
+    },
+    {
+     "t": "Power strap ติดกับพื้น",
+     "d": "ช่วยให้สวมใส่กระชับและมั่นคงในการเคลื่อนไหวที่ต้องใช้แรง"
+    },
+    {
+     "t": "แถบตีนตุ๊กแกสองชั้น",
+     "d": "ปรับความกระชับได้ ช่วยให้เท้ามั่นคงทั้งตอนขึ้นและลงทางเทคนิค"
+    },
+    {
+     "t": "โพลีเอสเตอร์ยืดหยุ่น + TPU",
+     "d": "ส่วนเสริม TPU ช่วยสร้างสมดุลระหว่างความยืดหยุ่นและการปกป้อง พร้อมเพิ่มความทนทาน"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "U43: 406g",
+    "en": "Unisex EU43: 406 g",
+    "th": "ยูนิเซ็กซ์ EU43: 406 กรัม"
+   },
+   "sole": {
+    "ja": "4mmラバー、2mm EVA + ポリエステルインソール",
+    "en": "4 mm rubber, 2 mm EVA and polyester insole",
+    "th": "ยางหนา 4 มม. แผ่นรองด้านในโฟม EVA 2 มม. พร้อมผ้าโพลีเอสเตอร์"
+   },
+   "upper": {
+    "ja": "ストレッチポリエステル、TPUオーバーレイ",
+    "en": "Stretch polyester with bonded TPU overlays",
+    "th": "โพลีเอสเตอร์ยืดหยุ่น พร้อมแผ่น TPU เสริม"
+   }
+  }
+ },
+ "Spidrwalk": {
+  "ja": {
+   "tagline": "水陸両用のミニマルアウトドアシューズ",
+   "intro": "濡れた不整地や変化の多い路面向けに、トラクション、水はけ、自然な動きを重視して開発されました。3.7mmのVibram Megagripソールは、岩、泥、川床など濡れた不規則な路面でのグリップを狙った設計です。",
+   "feats": [
+    {
+     "t": "3.7mm Vibram Megagrip",
+     "d": "岩や泥、川床など濡れた路面でのグリップを重視しています。"
+    },
+    {
+     "t": "排水孔",
+     "d": "水が抜けやすく、乾きやすい設計です。"
+    },
+    {
+     "t": "異物の侵入を抑えるアッパー",
+     "d": "通気性のあるアッパーが、砂や小さなデブリの侵入を抑えます。"
+    },
+    {
+     "t": "水陸両用",
+     "d": "水辺と陸上を切り替えながら使えます。"
+    },
+    {
+     "t": "沢歩きや水辺に",
+     "d": "沢歩き、渡渉、海岸の散策などに向いています。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "A minimalist outdoor shoe for wet and variable terrain",
+   "intro": "Spidrwalk is developed with a focus on traction, water management and natural movement. The 3.7 mm Vibram Megagrip outsole is engineered for grip across wet and irregular terrain, including rocks, mud and riverbeds.",
+   "feats": [
+    {
+     "t": "3.7 mm Vibram Megagrip",
+     "d": "Engineered for grip on rocks, mud and riverbeds."
+    },
+    {
+     "t": "Drainage perforations",
+     "d": "Let water flow out and support faster drying."
+    },
+    {
+     "t": "Debris-limiting upper",
+     "d": "The breathable upper helps limit the entry of sand, silt and small debris."
+    },
+    {
+     "t": "Water and land",
+     "d": "Suitable for use across water and land, with smooth transitions between environments."
+    },
+    {
+     "t": "Creek and coastal use",
+     "d": "Intended for creek hiking, stream crossings and coastal exploration."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รองเท้ามินิมอลสำหรับพื้นที่เปียกและภูมิประเทศที่เปลี่ยนแปลง",
+   "intro": "Spidrwalk พัฒนาโดยเน้นการยึดเกาะ การระบายน้ำ และการเคลื่อนไหวที่เป็นธรรมชาติ พื้น Vibram Megagrip หนา 3.7 มม. ออกแบบมาเพื่อยึดเกาะบนพื้นผิวเปียกและไม่สม่ำเสมอ เช่น หิน โคลน และท้องน้ำ",
+   "feats": [
+    {
+     "t": "Vibram Megagrip 3.7 มม.",
+     "d": "ออกแบบให้ยึดเกาะได้ดีบนหิน โคลน และท้องน้ำ"
+    },
+    {
+     "t": "รูระบายน้ำ",
+     "d": "ช่วยให้น้ำไหลออกและแห้งเร็วขึ้น"
+    },
+    {
+     "t": "อัปเปอร์ลดเศษวัสดุเข้า",
+     "d": "อัปเปอร์ระบายอากาศได้ ช่วยลดทราย ตะกอน และเศษเล็ก ๆ เข้าไปในรองเท้า"
+    },
+    {
+     "t": "ใช้ได้ทั้งน้ำและบก",
+     "d": "ใช้งานได้ทั้งในน้ำและบนบก เปลี่ยนสภาพแวดล้อมได้ลื่นไหล"
+    },
+    {
+     "t": "เดินลำธารและชายฝั่ง",
+     "d": "เหมาะกับการเดินลำธาร ข้ามลำธาร และสำรวจชายฝั่ง"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 130g / W37: 100g",
+    "en": "Men's EU43: 130 g / Women's EU37: 100 g",
+    "th": "ผู้ชาย EU43: 130 กรัม / ผู้หญิง EU37: 100 กรัม"
+   },
+   "sole": {
+    "ja": "3.7mm Vibram Megagripラバーアウトソール、2mm EVAフォームインソール",
+    "en": "3.7 mm Vibram Megagrip rubber outsole, 2 mm EVA foam insole",
+    "th": "พื้นนอกยาง Vibram Megagrip หนา 3.7 มม. แผ่นรองด้านในโฟม EVA 2 มม."
+   },
+   "upper": {
+    "ja": "ストレッチポリエステル、TPU補強",
+    "en": "Stretch polyester with TPU reinforcements",
+    "th": "โพลีเอสเตอร์ยืดหยุ่น เสริม TPU"
+   }
+  }
+ },
+ "Breezandal": {
+  "ja": {
+   "tagline": "最も通気性に優れたFiveFingersのアウトドアモデル",
+   "intro": "暖かい環境でのアウトドア向けに、軽量さと通気性を重視した一足です。5.7mmソールにVibram Megagripコンパウンドを採用し、川や湖など濡れた場所でも安定したグリップを狙った設計です。",
+   "feats": [
+    {
+     "t": "3D Cocoon mesh",
+     "d": "小さな鋭利物の衝撃を分散し、地面の感覚を保ちます。"
+    },
+    {
+     "t": "Vibram Megagrip",
+     "d": "乾いた路面でも濡れた路面でもトラクションを発揮します。"
+    },
+    {
+     "t": "G-Hookシステム",
+     "d": "通気性とフィット感を高めます。"
+    },
+    {
+     "t": "調整可能なストラップ",
+     "d": "ヒールストラップとウェビングで、フィットを調整できます。"
+    },
+    {
+     "t": "つま先の耐摩耗フィルム",
+     "d": "摩耗しやすいつま先の耐久性を高めます。"
+    }
+   ]
+  },
+  "en": {
+   "tagline": "The most breathable model in the FiveFingers collection",
+   "intro": "Breezandal is a breathable minimalist shoe for outdoor use in warm conditions, combining lightweight construction with airflow-focused comfort. Its 5.7 mm sole with Vibram Megagrip compound is engineered for traction on dry and wet surfaces, including areas near rivers and lakes.",
+   "feats": [
+    {
+     "t": "3D Cocoon mesh",
+     "d": "A protective layer that disperses impact from small sharp objects while keeping ground feel."
+    },
+    {
+     "t": "Vibram Megagrip",
+     "d": "Engineered for traction on both dry and wet surfaces."
+    },
+    {
+     "t": "G-Hook system",
+     "d": "Enhances ventilation and gives a secure fit."
+    },
+    {
+     "t": "Adjustable closure",
+     "d": "An adjustable heel strap and webbing system allow a customizable fit."
+    },
+    {
+     "t": "Toe abrasion film",
+     "d": "An abrasion-resistant film layer adds durability in high-wear areas."
+    }
+   ]
+  },
+  "th": {
+   "tagline": "รุ่นที่ระบายอากาศดีที่สุดในคอลเลกชัน FiveFingers",
+   "intro": "Breezandal เป็นรองเท้ามินิมอลระบายอากาศดี สำหรับใช้งานกลางแจ้งในสภาพอากาศอบอุ่น ผสานน้ำหนักเบากับความสบายที่เน้นการไหลเวียนของอากาศ พื้นหนา 5.7 มม. ใช้ Vibram Megagrip ยึดเกาะได้ทั้งพื้นแห้งและเปียก รวมถึงบริเวณใกล้แม่น้ำและทะเลสาบ",
+   "feats": [
+    {
+     "t": "3D Cocoon mesh",
+     "d": "ชั้นป้องกันที่กระจายแรงกระแทกจากวัตถุแหลมเล็ก ๆ โดยยังรับรู้สัมผัสพื้นได้"
+    },
+    {
+     "t": "Vibram Megagrip",
+     "d": "ออกแบบให้ยึดเกาะได้ทั้งบนพื้นแห้งและพื้นเปียก"
+    },
+    {
+     "t": "ระบบ G-Hook",
+     "d": "ช่วยระบายอากาศและให้การสวมใส่ที่กระชับมั่นคง"
+    },
+    {
+     "t": "ปรับความกระชับได้",
+     "d": "สายรัดส้นและระบบเว็บบิ้งช่วยให้ปรับความกระชับได้ตามต้องการ"
+    },
+    {
+     "t": "ฟิล์มกันการเสียดสีที่ปลายเท้า",
+     "d": "ชั้นฟิล์มทนการเสียดสีช่วยเพิ่มความทนทานในจุดที่สึกหรอง่าย"
+    }
+   ]
+  },
+  "specs": {
+   "weight": {
+    "ja": "M43: 182g / W37: 134g",
+    "en": "Men's EU43: 182 g / Women's EU37: 134 g",
+    "th": "ผู้ชาย EU43: 182 กรัม / ผู้หญิง EU37: 134 กรัม"
+   },
+   "sole": {
+    "ja": "3.7mmラバーアウトソール、総厚5.7mm（3D Cocoon mesh内蔵）",
+    "en": "3.7 mm rubber outsole, 5.7 mm total with 3D Cocoon mesh",
+    "th": "พื้นนอกยางหนา 3.7 มม. ความหนารวม 5.7 มม. พร้อม 3D Cocoon mesh"
+   },
+   "upper": {
+    "ja": "通気性エアメッシュ（G-Hookシステム）",
+    "en": "Breathable air-mesh with G-Hook system",
+    "th": "ตาข่ายระบายอากาศ พร้อมระบบ G-Hook"
+   }
+  }
+ }
+}

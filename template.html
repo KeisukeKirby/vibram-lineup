@@ -1,0 +1,470 @@
+<meta charset="utf-8">
+<title>FiveFingers Lineup</title>
+<meta name="description" content="Barefoot Inc が扱う Vibram FiveFingers のレギュラー商品とイベント限定商品。特徴・説明・画像・通常価格・カラー展開(日本語 / English / ไทย)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Thai:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+
+:root{
+  --bg:#EFF0F2; --surface:#FFFFFF; --sunk:#E2E4E8; --ink:#15161A; --muted:#5D6068; --line:#D3D6DB;
+  --accent:#7A5A00; --accent-ink:#FFFFFF; --mark:#F6C400; --photo:#FFFFFF; --chip:#E5E7EB; --focus:#15161A;
+  --display:"Barlow Condensed","Noto Sans Thai","Arial Narrow",system-ui,sans-serif;
+  --body:"Noto Sans JP","Noto Sans Thai","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1013; --surface:#18191D; --sunk:#222328; --ink:#ECEDEF; --muted:#9A9DA6; --line:#2C2E34;
+    --accent:#F6C400; --accent-ink:#15161A; --mark:#F6C400; --photo:#F4F5F6; --chip:#25272D; --focus:#F6C400;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1013; --surface:#18191D; --sunk:#222328; --ink:#ECEDEF; --muted:#9A9DA6; --line:#2C2E34;
+  --accent:#F6C400; --accent-ink:#15161A; --mark:#F6C400; --photo:#F4F5F6; --chip:#25272D; --focus:#F6C400;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.6;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:1240px;margin:0 auto}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 32px;padding-block:28px 18px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);line-height:.95;letter-spacing:.01em;margin:6px 0 0;text-transform:uppercase;text-wrap:balance}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:30px;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--muted)}
+.tabs{display:flex;border-bottom:3px solid var(--mark);margin-top:4px;overflow-x:auto}
+.tabs a{display:flex;flex-direction:column;gap:1px;padding:10px 20px 9px;text-decoration:none;color:var(--muted);border-radius:8px 8px 0 0;white-space:nowrap}
+.tabs a b{font-family:var(--display);font-size:22px;font-weight:600;letter-spacing:.03em;line-height:1.1}
+.tabs a span{font-family:var(--mono);font-size:11.5px}
+.tabs a:hover{color:var(--ink)}
+.tabs a[aria-current="page"] span{color:#3A3B40}
+.tabs a[aria-current="page"]{background:var(--mark);color:#15161A}
+.tabnote{margin:10px 0 0;font-size:13px;color:var(--muted);max-width:760px}
+.also{font-size:11.5px;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 6px;align-self:flex-start}
+.kind{font-family:var(--mono);font-size:11px;padding:0 6px;border-radius:3px;white-space:nowrap}
+.kind.r{background:var(--ink);color:var(--surface)}
+.kind.e{background:var(--chip);color:var(--muted)}
+
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.seg{display:inline-flex;background:var(--sunk);border-radius:8px;padding:3px;gap:2px}
+.seg button{border:0;background:transparent;padding:5px 11px;border-radius:6px;cursor:pointer;font-size:13px;color:var(--muted);white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:500;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.search{flex:1 1 180px;max-width:280px;margin-left:auto}
+.search input{width:100%;padding:7px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+.cat{margin-top:30px}
+.cat h2{display:flex;align-items:baseline;gap:12px;font-family:var(--display);font-weight:600;font-size:24px;letter-spacing:.04em;text-transform:uppercase;margin:0 0 12px}
+.cat h2 small{font-family:var(--body);font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.photo{position:relative;background:var(--photo);aspect-ratio:4/3;max-width:100%;display:flex;align-items:center;justify-content:center;cursor:zoom-in;border:0;padding:0;width:100%}
+.photo img{width:100%;height:100%;object-fit:contain;padding:8px}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.name{font-family:var(--display);font-weight:700;font-size:23px;line-height:1.05;text-transform:uppercase;letter-spacing:.02em;margin:0}
+.jname{font-size:12px;color:var(--muted);margin-top:2px}
+.tag{font-size:13px;font-weight:500;line-height:1.5;margin:0}
+.swatches{display:flex;flex-wrap:wrap;gap:6px}
+.sw{width:50px;height:40px;border-radius:6px;border:1.5px solid var(--line);background:var(--photo);padding:0;cursor:pointer;position:relative;overflow:hidden}
+.sw img{width:100%;height:100%;object-fit:contain}
+.sw[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.sw i{position:absolute;right:1px;bottom:0;font-style:normal;font-family:var(--mono);font-size:9px;color:#333;background:rgba(255,255,255,.85);padding:0 2px;border-radius:2px}
+.cwname{font-size:13px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.cwname b{font-weight:500}
+.gpill{font-family:var(--mono);font-size:11px;padding:0 6px;border-radius:3px;background:var(--chip);color:var(--muted)}
+.price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price .now{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
+.price .unit{font-size:12px;color:var(--muted)}
+.more{margin-top:auto;align-self:flex-start;border:1px solid var(--ink);background:transparent;border-radius:6px;padding:6px 12px;cursor:pointer;font-size:13px}
+.more:hover{background:var(--ink);color:var(--surface)}
+.empty{padding:40px 0;color:var(--muted)}
+
+dialog{border:0;padding:0;border-radius:12px;background:var(--surface);color:var(--ink);width:min(1000px,calc(100vw - 32px));max-height:calc(100vh - 40px)}
+dialog::backdrop{background:rgba(10,14,11,.55)}
+.dlg{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.gal{background:var(--photo);padding:16px;display:flex;flex-direction:column;gap:10px}
+.gal .main{aspect-ratio:1/1;max-width:100%;display:flex;align-items:center;justify-content:center}
+.gal .main img{max-height:100%;object-fit:contain}
+.thumbs{display:flex;gap:6px;flex-wrap:wrap}
+.thumbs button{width:64px;height:54px;border:1.5px solid #DDD;border-radius:6px;background:#fff;padding:0;cursor:pointer}
+.thumbs button[aria-pressed="true"]{border-color:#171A18}
+.thumbs img{width:100%;height:100%;object-fit:contain}
+.info{padding:22px 24px 24px;overflow:auto;display:flex;flex-direction:column;gap:16px}
+.info .close{position:sticky;top:0;align-self:flex-end;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:4px 10px;cursor:pointer;margin-bottom:-36px}
+.info h3{font-family:var(--display);font-weight:700;font-size:32px;line-height:1;text-transform:uppercase;margin:0;padding-right:70px}
+.lead{font-size:14px;margin:0}
+.lead.en{color:var(--muted);font-size:13px}
+.sec{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.specs div{background:var(--surface);padding:8px 10px}
+.specs dt{font-size:11px;color:var(--muted)}
+.specs dd{margin:0;font-family:var(--display);font-size:20px;font-weight:600;line-height:1.2}
+.feats{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.feats li{padding-left:14px;position:relative;font-size:13px}
+.feats li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.feats b{font-weight:500;display:block}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-weight:500;color:var(--muted);font-size:11.5px}
+td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+td.m{font-family:var(--mono);font-size:11.5px}
+tr.cur td{background:var(--chip)}
+.links{display:flex;gap:12px;flex-wrap:wrap;font-size:13px}
+.links a{color:var(--accent)}
+.note{font-size:12px;color:var(--muted);background:var(--sunk);padding:8px 10px;border-radius:6px}
+footer{margin-top:40px;font-size:12px;color:var(--muted);max-width:760px;display:flex;flex-direction:column;gap:4px}
+@media (max-width:760px){
+  .dlg{grid-template-columns:1fr}
+  .gal .main{aspect-ratio:4/3}
+  .search{max-width:none;margin-left:0}
+}
+@media (prefers-reduced-motion:no-preference){.sw,.more,.seg button{transition:all .12s}}
+.headr{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.lang button{min-width:64px}
+html[lang="th"] .tabs a b{font-size:19px}
+.range{list-style:none;margin:0;padding:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.range li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 10px;font-size:13px;border-top:1px solid var(--line)}
+.range li:first-child{border-top:0}
+.gps{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+.gp{font-family:var(--mono);font-size:11px;padding:0 6px;border-radius:3px;white-space:nowrap}
+.gp.r{background:var(--ink);color:var(--surface)}
+.gp.e{background:var(--chip);color:var(--ink)}
+.gp.n{border:1px solid var(--line);color:var(--muted)}
+.specs .wide{grid-column:1/-1}
+.specs .wide dd{font-family:var(--body);font-size:14px;font-weight:500}
+.muted{color:var(--muted);margin:0}
+.small{font-size:11.5px;margin-top:6px}
+@media (max-width:760px){.headr{align-items:flex-start}}
+
+h1::after{content:"";display:block;width:56px;height:6px;background:var(--mark);margin-top:10px}
+.sw.txt{background:var(--sunk);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:9.5px;line-height:1.1;text-align:center;padding:2px 3px 9px;font-family:var(--body)}
+.sw.txt span{overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;word-break:break-word}
+.refnote{position:absolute;left:8px;bottom:8px;font-size:10.5px;background:rgba(21,22,26,.78);color:#fff;padding:1px 7px;border-radius:3px}
+.gal .main{position:relative}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div>
+    <div class="eyebrow">Barefoot Inc · Vibram FiveFingers · Thailand</div>
+    <h1>FiveFingers lineup</h1>
+  </div>
+  <div class="headr">
+    <div class="seg lang" id="f-lang" role="group" aria-label="Language">
+      <button data-v="ja" aria-pressed="false" lang="ja">日本語</button>
+      <button data-v="en" aria-pressed="false" lang="en">English</button>
+      <button data-v="th" aria-pressed="false" lang="th">ไทย</button>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <a href="#regular" data-tab="regular" aria-current="page"><b data-i="tabRegular"></b><span id="t-regular"></span></a>
+  <a href="#event" data-tab="event"><b data-i="tabEvent"></b><span id="t-event"></span></a>
+</nav>
+<p class="tabnote" id="tabnote"></p>
+
+<div class="bar" role="toolbar">
+  <div class="seg" id="f-g">
+    <button data-v="all" aria-pressed="true">W / M</button>
+    <button data-v="W" aria-pressed="false" data-i="women"></button>
+    <button data-v="M" aria-pressed="false" data-i="men"></button>
+  </div>
+  <div class="seg" id="f-cat">
+    <button data-v="all" aria-pressed="true" data-i="allCats"></button>
+    <button data-v="training" aria-pressed="false">Training</button>
+    <button data-v="running" aria-pressed="false">Running</button>
+    <button data-v="outdoor" aria-pressed="false">Outdoor</button>
+    <button data-v="casual" aria-pressed="false">Casual</button>
+  </div>
+  <label class="search"><input id="q" type="search"></label>
+  <span class="count" id="count"></span>
+</div>
+
+<main id="list"></main>
+
+<footer id="foot"></footer>
+</div>
+
+<dialog id="dlg"></dialog>
+
+<script>
+const DATA = /*DATA*/;
+const ASOF = /*ASOF*/;
+
+const T = {
+  ja: {
+    tabRegular:"レギュラー取扱", tabEvent:"イベント取扱",
+    noteRegular:"店舗で常時扱っている商品です。性別ごとに扱いが違うカラーがあります。",
+    noteEvent:"レギュラーには無いが、イベントで扱ったカラー・性別です。モデル自体はレギュラーにあり、別カラーだけがイベント扱いのものも含みます。",
+    women:"Women", men:"Men", allCats:"全カテゴリ", search:"モデル名・カラー・コード",
+    cat:{training:"トレーニング・ジム", running:"ウォーキング・ランニング", outdoor:"アウトドア・水辺・トレイル", casual:"街履き・カジュアル"},
+    nModels:n=>`${n}モデル`, tabCount:(m,c)=>`${m}モデル · ${c}カラー`, count:(m,c)=>`${m}モデル / ${c}カラー`,
+    stModels:"モデル", stColours:"カラー(男女別)", stPrice:"通常価格の幅",
+    listPrice:"通常価格", more:"特徴・説明を見る", alsoRegular:"別カラーはレギュラー取扱",
+    close:"閉じる", spec:"Spec", weight:"重量", sole:"ソール", upper:"アッパー",
+    feats:"特徴", carried:"取扱カラー", notCarried:"取扱なし(公式に存在するカラー)",
+    regular:"レギュラー", event:"イベント", none:"なし",
+    rangeNote:"vibram.com に掲載中のカラーです。時期によって変わります。",
+    notListed:"このモデルは vibram.com に掲載がないため、取扱なしのカラーは表示できません。",
+    noCopy:"公式サイトに説明が残っていない旧モデルです。名称・価格・取扱カラーのみ掲載しています。",
+    refModel:"参考画像(別カラー)", refGender:"参考画像(性別違い)", refPoster:"ポスター画像",
+    jpSite:"barefootinc.jp", vibSite:"vibram.com",
+    empty:"条件に合うモデルがありません。絞り込みを戻すか、検索語を変えてください。",
+    foot:t=>[`取扱の判定: 在庫表(VFF Stock Dashboard、${t} 時点)。在庫のあるカラーをレギュラー、在庫表では在庫が無くイベント在庫表(2026年9月)にあるカラー・性別をイベントとしています。`,
+          "価格: イベント在庫表の通常価格(Terminal 21 Asok ポップアップのポスターで、割引前に表示されている価格と同じ)。",
+          "説明・特徴: vibram.com(英語)と barefootinc.jp(日本語)。タイ語は翻訳です。重量・ソール・アッパーは各サイトの表記。",
+          "画像: vibram.com と barefootinc.jp の商品画像。両サイトに無い旧モデルはポスターの画像です。"],
+    g:{W:"Women",M:"Men",U:"Unisex"}
+  },
+  en: {
+    tabRegular:"Regular lineup", tabEvent:"Event only",
+    noteRegular:"Footwear we always carry in store. Some colours are carried for one gender only.",
+    noteEvent:"Colours and genders we have carried only at events. Includes regular models where a particular colour was event-only.",
+    women:"Women", men:"Men", allCats:"All categories", search:"Model, colour or code",
+    cat:{training:"Gym and training", running:"Walking and running", outdoor:"Outdoor, water and trail", casual:"Everyday and casual"},
+    nModels:n=>`${n} ${n===1?"model":"models"}`, tabCount:(m,c)=>`${m} models · ${c} colours`, count:(m,c)=>`${m} models / ${c} colours`,
+    stModels:"models", stColours:"colours (by gender)", stPrice:"list price range",
+    listPrice:"list price", more:"Features & details", alsoRegular:"Other colours are regular",
+    close:"Close", spec:"Spec", weight:"Weight", sole:"Sole", upper:"Upper",
+    feats:"Features", carried:"Colours we carry", notCarried:"Other colours in the range (not carried)",
+    regular:"Regular", event:"Event", none:"None",
+    rangeNote:"Colours currently listed on vibram.com. The range changes by season.",
+    notListed:"This model is not listed on vibram.com, so the colours we do not carry cannot be shown.",
+    noCopy:"An older model with no description left on the official sites. Only the name, price and the colours we carry are shown.",
+    refModel:"Reference photo (other colour)", refGender:"Reference photo (other gender)", refPoster:"Poster image",
+    jpSite:"barefootinc.jp", vibSite:"vibram.com",
+    empty:"No models match. Reset the filters or try another search.",
+    foot:t=>[`What we carry: the stock table (VFF Stock Dashboard, as of ${t}). Colours in stock are Regular; colours and genders with no stock there that appear in the September 2026 event stock sheet are Event.`,
+          "Prices: list price from the event stock sheet (the same price shown struck through, before discount, on the Terminal 21 Asok popup poster).",
+          "Copy and features: vibram.com (English) and barefootinc.jp (Japanese). Thai is translated. Weight, sole and upper are as stated on those sites.",
+          "Images: product photos from vibram.com and barefootinc.jp. Older models on neither site use poster images."],
+    g:{W:"Women",M:"Men",U:"Unisex"}
+  },
+  th: {
+    tabRegular:"สินค้าประจำ", tabEvent:"เฉพาะอีเวนต์",
+    noteRegular:"สินค้าที่ร้านมีจำหน่ายเป็นประจำ บางสีมีเฉพาะผู้หญิงหรือผู้ชาย",
+    noteEvent:"สีหรือเพศที่ไม่มีในสินค้าประจำ แต่เคยนำมาขายในงานอีเวนต์ รวมถึงรุ่นที่เป็นสินค้าประจำ แต่บางสีมีเฉพาะในอีเวนต์",
+    women:"ผู้หญิง", men:"ผู้ชาย", allCats:"ทุกประเภท", search:"ค้นหารุ่น สี หรือรหัส",
+    cat:{training:"ยิมและเทรนนิ่ง", running:"เดินและวิ่ง", outdoor:"กลางแจ้ง ริมน้ำ และเทรล", casual:"ใส่ทั่วไปและคาสชวล"},
+    nModels:n=>`${n} รุ่น`, tabCount:(m,c)=>`${m} รุ่น · ${c} สี`, count:(m,c)=>`${m} รุ่น / ${c} สี`,
+    stModels:"รุ่น", stColours:"สี (แยกชาย/หญิง)", stPrice:"ช่วงราคาปกติ",
+    listPrice:"ราคาปกติ", more:"ดูจุดเด่นและรายละเอียด", alsoRegular:"สีอื่นเป็นสินค้าประจำ",
+    close:"ปิด", spec:"สเปก", weight:"น้ำหนัก", sole:"พื้นรองเท้า", upper:"ส่วนบน",
+    feats:"จุดเด่น", carried:"สีที่ร้านมีจำหน่าย", notCarried:"สีอื่นที่มีในไลน์อัป (ร้านไม่มีจำหน่าย)",
+    regular:"ประจำ", event:"อีเวนต์", none:"ไม่มี",
+    rangeNote:"สีที่แสดงอยู่บน vibram.com ในขณะนี้ อาจเปลี่ยนแปลงตามฤดูกาล",
+    notListed:"รุ่นนี้ไม่มีบน vibram.com จึงไม่สามารถแสดงสีที่ร้านไม่มีจำหน่ายได้",
+    noCopy:"รุ่นเก่าที่ไม่มีคำอธิบายเหลือบนเว็บไซต์ทางการ แสดงเฉพาะชื่อ ราคา และสีที่ร้านมีจำหน่าย",
+    refModel:"ภาพอ้างอิง (สีอื่น)", refGender:"ภาพอ้างอิง (เพศอื่น)", refPoster:"ภาพจากโปสเตอร์",
+    jpSite:"barefootinc.jp", vibSite:"vibram.com",
+    empty:"ไม่พบรุ่นที่ตรงกับเงื่อนไข ลองล้างตัวกรองหรือเปลี่ยนคำค้นหา",
+    foot:t=>[`การระบุสินค้าที่ร้านมี: ตารางสต็อก (VFF Stock Dashboard ณ ${t}) สีที่มีสต็อกเป็นสินค้าประจำ สีหรือเพศที่ไม่มีสต็อกในตารางนั้นแต่อยู่ในไฟล์สต็อกอีเวนต์ (ก.ย. 2026) เป็นเฉพาะอีเวนต์`,
+          "ราคา: ราคาปกติจากไฟล์สต็อกอีเวนต์ (เท่ากับราคาที่ขีดฆ่าก่อนลดบนโปสเตอร์ป๊อปอัพ Terminal 21 Asok)",
+          "คำอธิบายและจุดเด่น: vibram.com (อังกฤษ) และ barefootinc.jp (ญี่ปุ่น) ข้อความภาษาไทยเป็นการแปล น้ำหนัก พื้นรองเท้า และส่วนบนตามที่เว็บไซต์ระบุ",
+          "รูปภาพ: ภาพสินค้าจาก vibram.com และ barefootinc.jp รุ่นเก่าที่ไม่มีบนทั้งสองเว็บไซต์ใช้ภาพจากโปสเตอร์"],
+    g:{W:"ผู้หญิง",M:"ผู้ชาย",U:"ยูนิเซ็กซ์"}
+  }
+};
+const CATS = ["training","running","outdoor","casual"];
+const CATNAME = {training:"Training",running:"Running",outdoor:"Outdoor",casual:"Casual"};
+const st = {tab:"regular", g:"all", cat:"all", q:"", lang:"ja"};
+const sel = {};   // model name -> selected colourway index
+let openName = null;
+const t = () => T[st.lang];
+const fmt = n => n.toLocaleString("en-US");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const inTab = (cw, tab) => tab === "regular" ? cw.regular : !cw.regular;
+const cwId = c => c.g + "|" + c.colour;
+
+function copy(m){ return (m.i18n && m.i18n[st.lang]) || null; }
+function spec(m, k){ const s = m.i18n && m.i18n.specs && m.i18n.specs[k]; return s ? (s[st.lang] || "") : ""; }
+
+function cwMatch(m, cw){
+  if (!inTab(cw, st.tab)) return false;
+  if (st.g !== "all" && cw.g !== st.g && cw.g !== "U") return false;
+  if (st.cat !== "all" && m.cat !== st.cat) return false;
+  const q = st.q.trim().toLowerCase();
+  if (!q) return true;
+  const hay = [m.name, cw.colour, cw.code, T.ja.g[cw.g], T.th.g[cw.g]].join(" ").toLowerCase();
+  return q.split(/\s+/).every(w => hay.includes(w));
+}
+
+function tabCounts(tab){
+  const cws = DATA.flatMap(m=>m.cw.filter(c=>inTab(c,tab)).map(()=>m.price));
+  const ms = DATA.filter(m=>m.cw.some(c=>inTab(c,tab)));
+  return {m: ms.length, c: cws.length, lo: Math.min(...cws), hi: Math.max(...cws)};
+}
+
+function renderChrome(){
+  const L = t();
+  document.documentElement.lang = st.lang;
+  document.querySelectorAll("[data-i]").forEach(el => { el.textContent = L[el.dataset.i]; });
+  document.getElementById("q").placeholder = L.search;
+  document.getElementById("q").setAttribute("aria-label", L.search);
+  const asof = (ASOF.match(/\d\d\/\d\d\/\d{4}/) || [""])[0];
+  document.getElementById("foot").innerHTML = L.foot(asof).map(s=>`<div>${esc(s)}</div>`).join("");
+  document.querySelectorAll("#f-lang button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === st.lang));
+  for (const tb of ["regular","event"]){ const k = tabCounts(tb); document.getElementById("t-"+tb).textContent = L.tabCount(k.m, k.c); }
+  const k = tabCounts(st.tab);
+  document.getElementById("stats").innerHTML =
+    `<div class="stat"><b>${k.m}</b><span>${L.stModels}</span></div>
+     <div class="stat"><b>${k.c}</b><span>${L.stColours}</span></div>
+     <div class="stat"><b>฿${fmt(k.lo)}${k.lo===k.hi?"":"–"+fmt(k.hi)}</b><span>${L.stPrice}</span></div>`;
+  document.getElementById("tabnote").textContent = st.tab === "regular" ? L.noteRegular : L.noteEvent;
+  document.querySelectorAll("#tabs a").forEach(a => {
+    if (a.dataset.tab === st.tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
+}
+
+function refChip(cw){
+  const L = t();
+  if (cw.ref === "model") return `<span class="refnote">${L.refModel}</span>`;
+  if (cw.ref === "gender") return `<span class="refnote">${L.refGender}</span>`;
+  if (cw.img_src === "poster") return `<span class="refnote">${L.refPoster}</span>`;
+  return "";
+}
+function priceHTML(m){
+  return `<div class="price"><span class="now">฿${fmt(m.price)}</span><span class="unit">${t().listPrice}</span></div>`;
+}
+
+function card(m, cws){
+  const L = t(), cp = copy(m);
+  const cur = cws.find(c=>cwId(c)===sel[m.name]) || cws[0];
+  sel[m.name] = cwId(cur);
+  return `<article class="card" data-m="${esc(m.name)}">
+    <button class="photo" data-open="${esc(m.name)}" aria-label="${esc(m.name)}">
+      ${cur.imgs[0]?`<img src="${cur.imgs[0]}" alt="${esc(m.name)} ${esc(cur.colour)}" loading="lazy">`:""}
+      ${refChip(cur)}
+    </button>
+    <div class="body">
+      <div><h3 class="name">${esc(m.name)}</h3></div>
+      ${cp&&cp.tagline?`<p class="tag">${esc(cp.tagline)}</p>`:""}
+      <div class="swatches" role="group">${cws.map(c=>`<button class="sw${c.ref?" txt":""}" data-cw="${esc(cwId(c))}" aria-pressed="${cwId(c)===cwId(cur)}" title="${esc(c.colour)} (${L.g[c.g]})">${c.ref?`<span>${esc(c.colour)}</span>`:`<img src="${c.imgs[0]||""}" alt="" loading="lazy">`}<i>${c.g}</i></button>`).join("")}</div>
+      <div class="cwname"><b>${esc(cur.colour)}</b><span class="gpill">${L.g[cur.g]}</span><span class="gpill">${esc(cur.code)}</span></div>
+      ${priceHTML(m)}
+      ${st.tab==="event" && m.cw.some(c=>c.regular)?`<span class="also">${L.alsoRegular}</span>`:""}
+      <button class="more" data-open="${esc(m.name)}">${L.more}</button>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const L = t(), out = [];
+  let nM = 0, nC = 0;
+  for (const cat of CATS){
+    const cards = [];
+    for (const m of DATA.filter(m=>m.cat===cat)){
+      const cws = m.cw.filter(c=>cwMatch(m,c));
+      if (!cws.length) continue;
+      nM++; nC += cws.length;
+      cards.push(card(m, cws));
+    }
+    if (cards.length) out.push(`<section class="cat"><h2>${CATNAME[cat]}<small>${L.cat[cat]} · ${L.nModels(cards.length)}</small></h2><div class="grid">${cards.join("")}</div></section>`);
+  }
+  document.getElementById("list").innerHTML = out.join("") || `<p class="empty">${L.empty}</p>`;
+  document.getElementById("count").textContent = L.count(nM, nC);
+}
+
+function rangeHTML(m){
+  const L = t();
+  const pills = (r, want) => ["W","M"].filter(g => g in r && want(r[g])).map(g =>
+    `<span class="gp ${r[g]==="regular"?"r":r[g]==="event"?"e":"n"}">${g}${r[g]?` · ${r[g]==="regular"?L.regular:L.event}`:""}</span>`).join("");
+  const carried = m.range.filter(r => ["W","M"].some(g => r[g]));
+  const other = m.range.filter(r => ["W","M"].some(g => g in r && !r[g]));
+  const list = (rows, want) => rows.length
+    ? `<ul class="range">${rows.map(r=>`<li><span>${esc(r.name)}</span><span class="gps">${pills(r, want)}</span></li>`).join("")}</ul>`
+    : `<p class="muted">${L.none}</p>`;
+  return `<div><p class="sec">${L.carried}</p>${list(carried, v => !!v)}</div>
+    <div><p class="sec">${L.notCarried}</p>${list(other, v => !v)}
+      <p class="muted small">${m.listed ? L.rangeNote : L.notListed}</p></div>`;
+}
+
+function openModel(name){
+  const L = t(), m = DATA.find(x=>x.name===name), cp = copy(m);
+  openName = name;
+  const cur = m.cw.find(c=>cwId(c)===sel[name]) || m.cw[0];
+  const specs = [[L.weight, spec(m,"weight")],[L.sole, spec(m,"sole")],[L.upper, spec(m,"upper")]].filter(s=>s[1]);
+  const links = [m.vib_url && `<a href="${m.vib_url}" target="_blank" rel="noopener">${L.vibSite}</a>`,
+                 m.jp_url && `<a href="${m.jp_url}" target="_blank" rel="noopener">${L.jpSite}</a>`].filter(Boolean);
+  const dlg = document.getElementById("dlg");
+  dlg.setAttribute("aria-label", m.name);
+  dlg.innerHTML = `<div class="dlg">
+    <div class="gal">
+      <div class="main"><img id="dmain" src="${cur.imgs[0]||""}" alt="${esc(m.name)} ${esc(cur.colour)}">${refChip(cur)}</div>
+      <div class="thumbs" id="dthumbs">${cur.imgs.length>1?cur.imgs.map((s,i)=>`<button data-img="${s}" aria-pressed="${i===0}" aria-label="${i+1}"><img src="${s}" alt=""></button>`).join(""):""}</div>
+      <div class="swatches">${m.cw.map(c=>`<button class="sw${c.ref?" txt":""}" data-dcw="${esc(cwId(c))}" aria-pressed="${cwId(c)===cwId(cur)}" title="${esc(c.colour)} (${L.g[c.g]})">${c.ref?`<span>${esc(c.colour)}</span>`:`<img src="${c.imgs[0]||""}" alt="">`}<i>${c.g}</i></button>`).join("")}</div>
+      <div class="cwname" style="color:#15161A"><b>${esc(cur.colour)}</b><span>${L.g[cur.g]} · ${esc(cur.code)}</span><span class="kind ${cur.regular?"r":"e"}">${cur.regular?L.regular:L.event}</span></div>
+    </div>
+    <div class="info">
+      <button class="close" id="dclose">${L.close}</button>
+      <div><div class="eyebrow">${CATNAME[m.cat]}</div><h3>${esc(m.name)}</h3></div>
+      ${priceHTML(m)}
+      ${cp&&cp.tagline?`<p class="lead"><b>${esc(cp.tagline)}</b></p>`:""}
+      ${cp&&cp.intro?`<p class="lead">${esc(cp.intro)}</p>`:`<div class="note">${L.noCopy}</div>`}
+      ${specs.length?`<div><p class="sec">${L.spec}</p><dl class="specs">${specs.map(([k,v])=>`<div class="wide"><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>`:""}
+      ${cp&&cp.feats&&cp.feats.length?`<div><p class="sec">${L.feats}</p><ul class="feats">${cp.feats.map(f=>`<li>${f.t?`<b>${esc(f.t)}</b>`:""}${esc(f.d)}</li>`).join("")}</ul></div>`:""}
+      ${rangeHTML(m)}
+      ${links.length?`<div class="links">${links.join("")}</div>`:""}
+    </div></div>`;
+  if (!dlg.open) dlg.showModal();
+  dlg.querySelector(".info").scrollTop = 0;
+}
+
+document.addEventListener("click", e => {
+  const sw = e.target.closest(".card .sw");
+  if (sw){ sel[sw.closest(".card").dataset.m] = sw.dataset.cw; render(); return; }
+  const op = e.target.closest("[data-open]");
+  if (op){ openModel(op.dataset.open); return; }
+  const dsw = e.target.closest("[data-dcw]");
+  if (dsw){ sel[openName] = dsw.dataset.dcw; openModel(openName); render(); return; }
+  const th = e.target.closest("[data-img]");
+  if (th){ document.getElementById("dmain").src = th.dataset.img; document.querySelectorAll("#dthumbs button").forEach(b=>b.setAttribute("aria-pressed", b===th)); return; }
+  if (e.target.id === "dclose" || e.target.id === "dlg") document.getElementById("dlg").close();
+});
+document.getElementById("dlg").addEventListener("close", () => { openName = null; });
+for (const [id,key] of [["f-g","g"],["f-cat","cat"]]){
+  document.getElementById(id).addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    st[key] = b.dataset.v;
+    b.parentElement.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b));
+    render();
+  });
+}
+document.getElementById("f-lang").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  st.lang = b.dataset.v;
+  try { localStorage.setItem("fivefingers-lineup-lang", st.lang); } catch (_) {}
+  renderChrome(); render();
+  if (openName) openModel(openName);
+});
+document.getElementById("q").addEventListener("input", e => { st.q = e.target.value; render(); });
+
+function setTab(tb){
+  st.tab = tb === "event" ? "event" : "regular";
+  renderChrome(); render();
+}
+document.getElementById("tabs").addEventListener("click", e => {
+  const a = e.target.closest("a[data-tab]"); if (!a) return;
+  e.preventDefault();
+  try { history.replaceState(null, "", "#" + a.dataset.tab); } catch (_) {}
+  setTab(a.dataset.tab);
+});
+window.addEventListener("hashchange", () => setTab(location.hash.slice(1)));
+
+(function initLang(){
+  let saved = null;
+  try { saved = localStorage.getItem("fivefingers-lineup-lang"); } catch (_) {}
+  const nav = (navigator.language || "").toLowerCase();
+  st.lang = T[saved] ? saved : nav.startsWith("th") ? "th" : nav.startsWith("ja") ? "ja" : "en";
+})();
+setTab(location.hash.slice(1));
+</script>
